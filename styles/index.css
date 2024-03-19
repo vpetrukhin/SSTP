@@ -1,1 +1,5 @@
-@import './normalized.css'
+/* normal styles */ 
+@import './normalized.css';
+
+/* menu styles */
+@import './menu.css';
