@@ -1,7 +1,31 @@
-.wrapper {
+.menu__list {
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+
+    width: 70%;
+    height: 19px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__item {
+    display: inline-block;
+    box-sizing: border-box;
     position: relative;
     
-    height: 170px;
+}
+
+.menu__item:hover {
+    border-bottom: 1px solid #e6741c;
+}
+
+.menu__item_active {
+    background-color: #fff;
+    color: black;
 }
 
 .submenu {
@@ -14,7 +38,10 @@
     background-color: white;
     
     border: 1px solid black;
+    border-top: none;
     border-radius: 5px;
+    
+    color: black;
 }
 
 .hidden {

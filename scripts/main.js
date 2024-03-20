@@ -4,4 +4,4 @@ import { initMenu } from './menu'
 console.log('Script is working...')
 
 
-initMenu('trigger')
+initMenu("categories");

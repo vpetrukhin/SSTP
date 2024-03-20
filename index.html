@@ -8,15 +8,33 @@
   </head>
 
   <body>
-    <h1>Современные технологии промышленного производства</h1>
+    <header class="header">
+      <div class="content">
+        <div class="header__inner">
+          <div class="header__logo logo">logo</div>
+          <button type="button" class="btn">Рассчитать стоимость</button>
+          <ul class="header__contacts">
+            <li><a tel="tel:+79999999999" href="#">+7 999 999-99-99</a></li>
+            <li><a href="mailto:1wDkK@example.com">1wDkK@example.com</a></li>
+          </ul>
+        </div>
 
-    <div class="wrapper">
-      <a id="trigger" href="#" target="_blank" rel="noopener noreferrer"
-        >trigger</a
-      >
-      <div id="menu" class="submenu hidden">menu</div>
-    </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a id="categories" class="menu__item" href="#">Продукция</a>
+              <div id="menu" class="submenu hidden">menu</div>
+            </li>
+            <a class="menu__item" href="#">Производство</a>
+            <a class="menu__item" href="#">Услуги</a>
+            <a class="menu__item" href="#">О компании</a>
+            <a class="menu__item" href="#">Сертификаты</a>
+            <a class="menu__item" href="#">Контакты</a>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <script type="module" src="../scripts/main.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>

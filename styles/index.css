@@ -1,5 +1,20 @@
 /* normal styles */ 
 @import './normalized.css';
 
+/* ui-kit styles */
+@import './btn.css';
+
 /* menu styles */
 @import './menu.css';
+
+/* header styles */
+@import './header.css';
+
+body {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
