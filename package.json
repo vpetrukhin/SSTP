@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "prettier": "^3.2.5",
     "postcss-preset-env": "^9.5.2",
     "vite": "^5.1.6"
   }

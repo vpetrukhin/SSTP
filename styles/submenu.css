@@ -1,0 +1,36 @@
+.submenu {
+    position: absolute;
+    background-color: white;
+    
+    padding: 40px 50px;
+    
+    
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    
+    border: 1px solid black;
+    border-top: none;
+    
+    color: black;
+}
+
+.submenu__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.submenu__title {
+    margin: 0;
+}
+
+.submenu__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

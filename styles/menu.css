@@ -1,0 +1,30 @@
+.menu__list {
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+
+    width: 70%;
+    height: 19px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__item {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    
+    color: white
+}
+
+
+.menu__item_active {
+    background-color: #fff;
+    color: black;
+}
+
+/* .menu__submenu {} */
+

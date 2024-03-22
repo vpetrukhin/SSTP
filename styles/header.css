@@ -1,0 +1,45 @@
+.header {
+    background-color: #353434;
+}
+
+.content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__logo {
+    flex-grow: 1;
+}
+
+.header__contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    color: white;
+}
+
+.header__contacts a {
+    color: white;
+}
+
+@media screen and (max-width: 1280px) {
+    .content {
+        width: 95%;
+    }
+}

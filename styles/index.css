@@ -1,9 +1,32 @@
+/* normal styles */ 
 @import './normalized.css';
-@import './page/page.css';
-@import './header/header.css';
+
+/* ui-kit styles */
+@import './btn.css';
+@import './link.css';
 @import './wrapper/wrapper.css';
+
+/* menu styles */
+@import './menu.css';
+
+/* submenu styles */
+@import './submenu.css';
+
+/* header styles */
+@import './header.css';
+
+@import './page/page.css';
 @import './products/products.css';
-@import './footer/footer.css'
+@import './footer/footer.css';
+
+a {
+    text-decoration: none;
+}
+
+
+.hidden {
+    display: none;
+}
 
 
 
