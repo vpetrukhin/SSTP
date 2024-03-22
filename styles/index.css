@@ -3,18 +3,23 @@
 
 /* ui-kit styles */
 @import './btn.css';
+@import './link.css';
 
 /* menu styles */
 @import './menu.css';
 
+/* submenu styles */
+@import './submenu.css';
+
 /* header styles */
 @import './header.css';
 
-body {
-    color: white;
-}
 
 a {
     text-decoration: none;
-    color: white;
+}
+
+
+.hidden {
+    display: none;
 }

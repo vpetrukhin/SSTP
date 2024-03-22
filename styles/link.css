@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: inherit;
+
+    cursor: pointer;
+}
+
+.link:hover {
+    border-bottom: 1px solid #e6741c;
+}

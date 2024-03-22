@@ -30,8 +30,13 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    
+    color: white;
 }
 
+.header__contacts a {
+    color: white;
+}
 
 @media screen and (max-width: 1280px) {
     .content {

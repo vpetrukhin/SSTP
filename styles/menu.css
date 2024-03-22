@@ -17,33 +17,14 @@
     box-sizing: border-box;
     position: relative;
     
+    color: white
 }
 
-.menu__item:hover {
-    border-bottom: 1px solid #e6741c;
-}
 
 .menu__item_active {
     background-color: #fff;
     color: black;
 }
 
-.submenu {
-    
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 300px;
-    height: 150px;
-    background-color: white;
-    
-    border: 1px solid black;
-    border-top: none;
-    border-radius: 5px;
-    
-    color: black;
-}
+/* .menu__submenu {} */
 
-.hidden {
-    display: none;
-}

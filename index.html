@@ -12,7 +12,7 @@
       <div class="content">
         <div class="header__inner">
           <div class="header__logo logo">logo</div>
-          <button type="button" class="btn">Рассчитать стоимость</button>
+          <!-- <button type="button" class="btn">Рассчитать стоимость</button> -->
           <ul class="header__contacts">
             <li><a tel="tel:+79999999999" href="#">+7 999 999-99-99</a></li>
             <li><a href="mailto:1wDkK@example.com">1wDkK@example.com</a></li>
@@ -22,14 +22,39 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a id="categories" class="menu__item" href="#">Продукция</a>
-              <div id="menu" class="submenu hidden">menu</div>
+              <a id="categories" class="link" href="#">Продукция</a>
+              <div id="menu" class="menu__submenu submenu hidden">
+                <div class="submenu__inner">
+                  <h3 class="submenu__title">Сварной настил</h3>
+                  <ul class="submenu__list">
+                    <li class="submenu__item"><a class="link" href="#">Сварной настил</a></li>
+                    <li class="submenu__item"><a class="link" href="#">Настил с противоскольжением</a></li>
+                    <li class="submenu__item"><a class="link" href="#">Настил для стеллажей</a></li>
+                  </ul>
+                </div>
+
+                <div class="submenu__inner">
+                  <h3 class="submenu__title">Ступени</h3>
+                  <ul class="submenu__list">
+                    <li class="submenu__item"><a class="link" href="#">Ступени</a></li>
+                    <li class="submenu__item"><a class="link" href="#">Сварные ступени</a></li>
+                    <li class="submenu__item"><a class="link" href="#">Ступени с противоскольжением</a></li>
+                  </ul>
+                </div>
+
+                <div class="submenu__inner">
+                  <h3 class="submenu__title">Другое</h3>
+                  <ul class="submenu__list">
+                    <li class="submenu__item"><a class="link" href="#">Крепеж</a></li>
+                  </ul>
+                </div>
+              </div>
             </li>
-            <a class="menu__item" href="#">Производство</a>
-            <a class="menu__item" href="#">Услуги</a>
-            <a class="menu__item" href="#">О компании</a>
-            <a class="menu__item" href="#">Сертификаты</a>
-            <a class="menu__item" href="#">Контакты</a>
+            <a class="menu__item link" href="#">Производство</a>
+            <a class="menu__item link" href="#">Услуги</a>
+            <a class="menu__item link" href="#">О компании</a>
+            <a class="menu__item link" href="#">Сертификаты</a>
+            <a class="menu__item link" href="#">Контакты</a>
           </ul>
         </nav>
       </div>
