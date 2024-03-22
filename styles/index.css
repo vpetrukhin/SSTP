@@ -1,1 +1,9 @@
-@import './normalized.css'
+@import './normalized.css';
+@import './page/page.css';
+@import './header/header.css';
+@import './wrapper/wrapper.css';
+@import './products/products.css';
+@import './footer/footer.css'
+
+
+

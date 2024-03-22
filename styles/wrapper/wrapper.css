@@ -1,0 +1,20 @@
+.wrapper {
+    width: 100%;
+    min-height: 550px;
+    background-image: url(/picture/1647990838_47-gamerwall-pro-p-fon-dlya-arkhitekturnogo-proekta-krasivie-73.jpg);
+    display: flex;
+    background-size: contain;
+}
+
+.wrapper__container {
+    width: 720px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper__title {
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 38px;
+
+}
