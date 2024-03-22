@@ -1,7 +1,7 @@
 .wrapper {
     width: 100%;
     min-height: 550px;
-    background-image: url(/picture/1647990838_47-gamerwall-pro-p-fon-dlya-arkhitekturnogo-proekta-krasivie-73.jpg);
+    background-image: url(../../picture/1647990838_47-gamerwall-pro-p-fon-dlya-arkhitekturnogo-proekta-krasivie-73.jpg);
     display: flex;
     background-size: contain;
 }
