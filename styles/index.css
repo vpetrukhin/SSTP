@@ -4,6 +4,7 @@
 /* ui-kit styles */
 @import './btn.css';
 @import './link.css';
+@import './wrapper/wrapper.css';
 
 /* menu styles */
 @import './menu.css';
@@ -14,6 +15,10 @@
 /* header styles */
 @import './header.css';
 
+@import './page/page.css';
+/* @import './header/header.css'; */
+@import './products/products.css';
+@import './footer/footer.css';
 
 a {
     text-decoration: none;
@@ -23,3 +28,6 @@ a {
 .hidden {
     display: none;
 }
+
+
+
