@@ -1,6 +1,9 @@
 /* normal styles */ 
 @import './normalized.css';
 
+/*fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* ui-kit styles */
 @import './btn.css';
 @import './link.css';
@@ -19,6 +22,11 @@
 @import './page/page.css';
 @import './products/products.css';
 @import './footer/footer.css';
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+} 
 
 a {
     text-decoration: none;
