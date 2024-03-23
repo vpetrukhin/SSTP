@@ -38,6 +38,21 @@
   border: 1px solid black;
 }
 
+.product__link_nastil {
+  background-image: url(../../picture/city-for-produts.png);
+}
+
+
+.product__link_steps {
+  background-image: url(../../picture/lines-for-product.png);
+}
+
+
+.product__link_fastener {
+  background-image: url(../../picture/metall-for-products.png);
+}
+
+
 .title {
   text-align: center;
 }

@@ -12,9 +12,10 @@
     <header class="header">
       <div class="content">
         <div class="header__inner">
-          <div class="header__logo logo">
-
-            <a class="link" href="/">logo</a>
+          <div class="header__logo">
+            <a class="logo link" href="/">
+              <img class="logo__img" src="./picture/logo_prev_ui.png" alt="logo">
+            </a>
 
           </div>
           <!-- <button type="button" class="btn">Рассчитать стоимость</button> -->
@@ -27,19 +28,19 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a id="categories" class="link" href="#">Продукция</a>
+              <a id="categories" class="link menu__link_with-submenu" href="/products">Продукция</a>
               <div id="menu" class="menu__submenu submenu hidden">
                 <div class="submenu__inner">
                   <h3 class="submenu__title">Сварной настил</h3>
                   <ul class="submenu__list">
                     <li class="submenu__item">
-                      <a class="link" href="#">Сварной настил</a>
+                      <a class="link" href="/products">Сварной настил</a>
                     </li>
                     <li class="submenu__item">
-                      <a class="link" href="#">Настил с противоскольжением</a>
+                      <a class="link" href="/products">Настил с противоскольжением</a>
                     </li>
                     <li class="submenu__item">
-                      <a class="link" href="#">Настил для стеллажей</a>
+                      <a class="link" href="/products">Настил для стеллажей</a>
                     </li>
                   </ul>
                 </div>
@@ -48,13 +49,13 @@
                   <h3 class="submenu__title">Ступени</h3>
                   <ul class="submenu__list">
                     <li class="submenu__item">
-                      <a class="link" href="#">Ступени</a>
+                      <a class="link" href="/products">Ступени</a>
                     </li>
                     <li class="submenu__item">
-                      <a class="link" href="#">Сварные ступени</a>
+                      <a class="link" href="/products">Сварные ступени</a>
                     </li>
                     <li class="submenu__item">
-                      <a class="link" href="#">Ступени с противоскольжением</a>
+                      <a class="link" href="/products">Ступени с противоскольжением</a>
                     </li>
                   </ul>
                 </div>
@@ -63,24 +64,22 @@
                   <h3 class="submenu__title">Другое</h3>
                   <ul class="submenu__list">
                     <li class="submenu__item">
-                      <a class="link" href="#">Крепеж</a>
+                      <a class="link" href="/products">Крепеж</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </li>
-            <a class="menu__item link" href="#">Производство</a>
+            <a class="menu__item link" href="/manufacture">Производство</a>
             <a id="uslugi" class="menu__item link" href="/services">Услуги</a>
-            <a class="menu__item link" href="#">О компании</a>
-            <a class="menu__item link" href="#">Сертификаты</a>
-            <a class="menu__item link" href="#">Контакты</a>
+            <a class="menu__item link" href="/about">О компании</a>
+            <a class="menu__item link" href="/certificates">Сертификаты</a>
+            <a class="menu__item link" href="/contacts">Контакты</a>
           </ul>
         </nav>
       </div>
     </header>
-
-    <main id="content" class="page">
-    </main>
+    <main id="content" class="page"></main>
     <div class="footer"></div>
 
     <script type="module" src="./scripts/main.js"></script>

@@ -28,3 +28,7 @@
 
 /* .menu__submenu {} */
 
+.menu__link_with-submenu:hover {
+    border-bottom: none;
+}
+

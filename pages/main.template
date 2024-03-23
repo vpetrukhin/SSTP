@@ -4,25 +4,21 @@
   </div>
 </section>
 <section class="products">
-  <!-- <img class="products__picture" src="picture/сетка.png"> -->
   <div class="products__container">
     <h2 class="products__title">Наша продукция</h2>
 
     <ul class="products__track">
-      <li class="product product__link">
+      <li class="product product__link product__link_nastil">
         <h3 class="title">Сварной настил</h3>
         <a href="#" class="product__link" target="_blank"></a>
-        <!-- <img class="product__img" src="picture/0b7d4239-no-bg-preview (carve.photos).png"> -->
       </li>
-      <li class="product product__link">
+      <li class="product product__link product__link_steps">
         <h3 class="title">Ступени</h3>
         <a href="#" class="product__link" target="_blank"></a>
-        <!-- <img class="product__img" src="picture/0b7d4239-no-bg-preview (carve.photos).png"> -->
       </li>
-      <li class="product product__link">
+      <li class="product product__link product__link_fastener">
         <h3 class="title">Крепеж</h3>
         <a href="#" class="product__link" target="_blank"></a>
-        <!-- <img class="product__img" src="picture/0b7d4239-no-bg-preview (carve.photos).png"> -->
       </li>
     </ul>
   </div>
