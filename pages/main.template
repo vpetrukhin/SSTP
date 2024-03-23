@@ -1,0 +1,25 @@
+<section class="wrapper">
+  <div class="wrapper__container">
+    <h1 class="wrapper__title">Производитель решетчатого настила</h1>
+  </div>
+</section>
+<section class="products">
+  <div class="products__container">
+    <h2 class="products__title">Наша продукция</h2>
+
+    <ul class="products__track">
+      <li class="product product__link product__link_nastil">
+        <h3 class="title">Сварной настил</h3>
+        <a href="#" class="product__link" target="_blank"></a>
+      </li>
+      <li class="product product__link product__link_steps">
+        <h3 class="title">Ступени</h3>
+        <a href="#" class="product__link" target="_blank"></a>
+      </li>
+      <li class="product product__link product__link_fastener">
+        <h3 class="title">Крепеж</h3>
+        <a href="#" class="product__link" target="_blank"></a>
+      </li>
+    </ul>
+  </div>
+</section>
