@@ -1,5 +1,5 @@
 .products {
-  width: 100%;
+  max-width: 100%;
   min-height: 550px;
   padding: 40px 0;
   background-image: linear-gradient(#d7d7d7, #353535);
