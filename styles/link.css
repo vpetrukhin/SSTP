@@ -8,3 +8,24 @@
 .link:hover {
     border-bottom: 1px solid #e6741c;
 }
+
+
+@media screen and (max-width: 768px) {
+    .link {
+        display: block;
+        font-size: 21px;
+        color: black;
+        line-height: 1.5;
+
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .link {
+        display: block;
+        font-size: 18px;
+        color: black;
+        padding: 5px 0px;
+        line-height: 1.3;
+    }
+}
