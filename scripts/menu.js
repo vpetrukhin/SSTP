@@ -2,13 +2,6 @@ const menu = document.getElementById("menu");
 const burgerButton = document.getElementById("burger");
 
 
-// const burgerMenu = () => {
-//   burgerButton.addEventListener('click', function() {
-//     document.querySelector("header").classList.toggle("open")
-//   })
-
-//   burgerMenu()
-// }
 document.addEventListener("DOMContentLoaded", function() {
   burgerButton.addEventListener('click', function() {
     document.querySelector('header').classList.toggle('open')
