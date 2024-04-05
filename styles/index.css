@@ -7,7 +7,7 @@
 /* ui-kit styles */
 @import './btn.css';
 @import './link.css';
-@import './wrapper/wrapper.css';
+@import './wrapper.css';
 @import './logo.css';
 
 /* menu styles */
@@ -19,13 +19,14 @@
 /* header styles */
 @import './header.css';
 
-@import './page/page.css';
-@import './products/products.css';
-@import './footer/footer.css';
+@import './page.css';
+@import './products.css';
+@import './footer.css';
 
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 } 
 
 a {

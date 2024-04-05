@@ -2,8 +2,9 @@
     width: 100%;
     min-height: 550px;
     background-image: url(../../picture/BG-city-for-wrapper.jpg);
+    background-repeat: no-repeat;
     display: flex;
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 .wrapper__container {
@@ -16,5 +17,8 @@
     margin-top: 70px;
     font-weight: 600;
     font-size: 38px;
+    color:  #ff8c00;
 
 }
+
+

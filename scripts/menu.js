@@ -1,4 +1,13 @@
 const menu = document.getElementById("menu");
+const burgerButton = document.getElementById("burger");
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   burgerButton.addEventListener('click', function() {
+//     document.querySelector('header').classList.toggle('open')
+//     })
+// })
+
 
 const openMenu = () => {
   menu.classList.remove("hidden");
@@ -42,6 +51,10 @@ const initMenu = (triggerId) => {
     closeMenu();
     trigger.classList.remove("menu__item_active");
   });
+
+  burgerButton.addEventListener('click', function() {
+    document.querySelector('header').classList.toggle('open')
+    })
 
   return () => {
     trigger.removeEventListener("mouseover", handleTriggerMouseOver);
