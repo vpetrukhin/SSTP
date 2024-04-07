@@ -1,5 +1,4 @@
 .footer {
-    
     height: 140px;
     background-color: #353434;
     display: flex;
@@ -14,13 +13,6 @@
 }
 
 
-.footer__inner {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-}
-
 .footer__logo {
     display: inline-block;
     width: 70px;
@@ -31,8 +23,8 @@
 .footer__map {
     font-style: normal;
     font-size: small;
-    margin-top: 5px;
-    justify-content: center;
+    color: #ff8c00;
+
 
 }
 
@@ -42,7 +34,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px 30px 5px 30px;
+    padding: 5px 20px 5px 20px;
 
 }
 
@@ -60,3 +52,107 @@
     color: white;
     padding: 0 auto;
 }
+
+.footer__link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer__container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 -20px 5px 20px;
+
+
+    }
+    
+    .footer__map {
+        font-style: normal;
+        font-size: small;
+        margin: 10px 20px 0 5px;
+        justify-content: center;
+
+    }
+
+    .footer__under {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-between;
+        padding: 0 -20px 5px 20px;
+        
+    }
+
+    .footer__condition {
+        display: block;
+        text-align: right;
+
+    }
+
+    .footer__logo {
+        margin: 0 0 0 10px;
+
+}
+
+
+}
+
+@media screen and (max-width: 490px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer__container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 -20px 5px 20px;
+
+
+    }
+    
+    .footer__map {
+        font-style: normal;
+        font-size: small;
+        margin: 10px 20px 0 5px;
+        justify-content: center;
+
+    }
+
+    .footer__under {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-between;
+        padding: 0 -20px 5px 20px;
+        
+    }
+
+    .footer__condition {
+        display: block;
+        text-align: right;
+
+    }
+
+    .footer__logo {
+        margin: 0 0 0 10px;
+
+}
+
+}
+
