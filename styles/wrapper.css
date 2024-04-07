@@ -21,4 +21,22 @@
 
 }
 
+@media screen and (max-width: 768px) {
+    .wrapper__title {
+        text-align: center;
+
+}
+}
+
+@media screen and (max-width: 490px) {
+    .wrapper__title {
+        margin-top: 110px;
+        font-weight: 600;
+        font-size: 38px;
+        color:  #ff8c00;
+        text-align: center;
+
+}
+}
+
 
