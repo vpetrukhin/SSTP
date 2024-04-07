@@ -23,7 +23,7 @@
 .footer__map {
     font-style: normal;
     font-size: small;
-    color: #ff8c00;
+    color: orange;
 
 
 }
@@ -96,8 +96,9 @@
     }
 
     .footer__condition {
-        display: block;
+        display: flex;
         text-align: right;
+        margin-top: 10px;
 
     }
 
@@ -144,8 +145,9 @@
     }
 
     .footer__condition {
-        display: block;
+        display: flex;
         text-align: right;
+        margin-top: 10px;
 
     }
 
