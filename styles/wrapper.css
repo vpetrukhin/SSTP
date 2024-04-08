@@ -1,7 +1,7 @@
 .wrapper {
     width: 100%;
     min-height: 550px;
-    background-image: url(../../picture/BG-city-for-wrapper.jpg);
+    background-image: url("../picture/mainbg.jpg");
     background-repeat: no-repeat;
     display: flex;
     background-size: 100% 100%;
@@ -17,7 +17,7 @@
     margin-top: 70px;
     font-weight: 600;
     font-size: 38px;
-    color:  #ff8c00;
+    color:  #000;
 
 }
 

@@ -16,13 +16,13 @@
     display: inline-block;
     box-sizing: border-box;
     position: relative;
-    color: black;
+    color: #ff8c00;;
 }
 
 
 .menu__item_active {
     background-color: #fff;
-    color: black;
+    color: #d07301;;
 }
 
 /* .menu__submenu {} */
