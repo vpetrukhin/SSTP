@@ -8,17 +8,20 @@
     <h2 class="products__title">Наша продукция</h2>
 
     <ul class="products__track">
-      <li class="product product__link product__link_nastil">
-        <h3 class="product__title">Сварной настил</h3>
-        <a href="#" class="product__link" target="_blank"></a>
+      <li class="product product__link">
+        <a href="#" class="product__link" target="_blank">
+          <h3 class="product__title">Сварной настил</h3>
+        </a>
       </li>
-      <li class="product product__link product__link_steps">
-        <h3 class="product__title">Ступени</h3>
-        <a href="#" class="product__link" target="_blank"></a>
+      <li class="product product__link">
+        <a href="#" class="product__link" target="_blank">
+          <h3 class="product__title">Ступени</h3>
+        </a>
       </li>
-      <li class="product product__link product__link_fastener">
-        <h3 class="product__title">Крепеж</h3>
-        <a href="#" class="product__link" target="_blank"></a>
+      <li class="product product__link">
+        <a href="#" class="product__link" target="_blank">
+          <h3 class="product__title">Крепеж</h3>
+        </a>
       </li>
     </ul>
   </div>

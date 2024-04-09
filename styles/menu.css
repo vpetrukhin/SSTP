@@ -76,8 +76,6 @@
         width: 140px;
         height: 200px;
         transition: transform .5s;
-        background-color: #d3d3d3;
-        opacity: 0.6;
         padding: 50px 10px 10px 10px;
         border-radius: 10%;
 
