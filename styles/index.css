@@ -26,7 +26,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 } 
 
 a {
@@ -36,6 +36,11 @@ a {
 
 .hidden {
     display: none;
+}
+
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 
