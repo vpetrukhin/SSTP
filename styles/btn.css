@@ -1,15 +1,25 @@
 .btn {
+    box-sizing: border-box;
+
     margin: 0;
     padding: 15px;
-    border: none;
-    border-radius: 10px;
+    border: 2px solid var(--color-orange);
+    background: none;
+    border-radius: 3px;
     outline: none;
 
-    background: #e6741c;
 
     cursor: pointer;
 }
 
+.btn__active {
+    background: var(--color-orange);
+}
+
 .btn:hover {
-    background: #d46f1b;
+    border-color: var(--color-orange-dark);
+}
+
+.btn__active:hover {
+    background: var(--color-orange-dark);
 }
