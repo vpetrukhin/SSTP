@@ -52,7 +52,7 @@
     display: inline-block;
     width: 26px;
     height: 24px;
-    background: url('../picture/phone.svg') no-repeat;
+    background: url('./phone.svg') no-repeat;
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -62,7 +62,7 @@
     display: inline-block;
     width: 26px;
     height: 24px;
-    background: url('../picture/email.svg') no-repeat;
+    background: url('./email.svg') no-repeat;
     vertical-align: middle;
     margin-right: 10px;
 }

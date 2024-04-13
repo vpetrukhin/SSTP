@@ -1,7 +1,7 @@
 .wrapper {
     width: 100%;
     min-height: 550px;
-    background-image: url("../picture/mainbg.jpg");
+    background-image: url("../public/mainbg.jpg");
     background-repeat: no-repeat;
     display: flex;
     background-size: 100% 100%;

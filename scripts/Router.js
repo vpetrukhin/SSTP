@@ -36,7 +36,7 @@ export const render = (path) => {
   } else if (routes.Certificates.match(path)) {
     result = CertificatesPage();
   } else if (routes.Contacts.match(path)) {
-    result = ContactsPage({ src: "../picture/office.jpg" });
+    result = ContactsPage({ src: "../assets/office.jpg" });
   }
 
   document.querySelector("#content").innerHTML = result;
