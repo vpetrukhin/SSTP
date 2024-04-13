@@ -1,1 +1,40 @@
-<h1>Услуги</h1>
+<!-- <h1>Услуги</h1> -->
+
+<section class="services">
+    <div class="services__container">
+        <section class="backpage">
+            <ul class="backpage__list">
+                <li class="backpage__item">
+                    <a class="backpage__link" href="/">Главная</a>
+                </li>
+                <li class="backpage__item">Услуги</li>
+            </ul>
+
+        </section>
+        <h1 class="services__title">Услуги компании</h1>
+    </div>
+    <ul class="services__list">
+        <li>
+            <a class="services__link" href="/">
+                <div class="services__img">
+                    <img src="../picture/photoforservices2.jpg" width="360" height="320" alt="Проектирование">
+                </div>
+                <div class="services__text">
+                    <p class="services__name">Проектирование и разработка КМД</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a class="services__link" href="/">
+                <div class="services__img">
+                    <img src="../picture/photoforservices.jpg" width="360" height="320" alt="Доставка">
+                </div>
+                <div class="services__text">
+                    <p class="services__name">Доставка на объекты</p>
+                </div>
+            </a>
+
+        </li>
+    </ul>
+
+</section>
