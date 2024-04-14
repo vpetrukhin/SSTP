@@ -1,7 +1,7 @@
 import officeImg from "./office.jpg";
 import factoryImg from "./factory.jpg";
 
-export const appConstants = {
+export const appConfig = {
   routes: {
     index: "/",
     products: "/products",
