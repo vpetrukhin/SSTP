@@ -1,16 +1,16 @@
 .products {
   width: 100%;
-  min-height: 400px;
+  height: 530px;
   padding: 40px 0;
-  background-image: linear-gradient(#d7d7d7, #353535);
+  background-image: linear-gradient(#d7d7d7, #808080);
 }
 
 .products__container {
   width: 720px;
   margin: 0 auto;
   padding: 0;
-  /* display: flex; */
-  /* flex-direction: column; */
+  position: relative;
+  z-index: 1;
 }
 
 .products__title {
@@ -22,7 +22,7 @@
 }
 
 .products__track {
-  height: 400px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,32 +40,15 @@
   
 }
 
-/* FIXME */
-.product__link_nastil {
-  display: block;
-}
-
-.product__link_steps {
-  display: block;
-}
-
-.product__link_fastener {
-  display: block;
-}
 
 .product__title {
   margin: 0;
   margin-top: 10px;
   text-align: center;
   font-size: 23px;
+  color: black;
 }
 
-/* .product__img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  object-position: top left;
-} */
 
 .product__link {
   display: block;
@@ -73,9 +56,44 @@
   height: 150px;
 }
 
+
+.product__img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+}
+.product__img_img1 {
+  width: 250px;
+  height: 150px;
+  left: -350px;
+  top: 440px;
+
+}
+
+.product__img_img2 {
+  width: 150px;
+  left: 730px;
+  top: 210px;
+}
+
+.product__img_img3 {
+  width: 220px;
+  top: 400px;
+  left: 300px;
+}
+
+.product__img_img4 {
+  width: 250px;
+  height: 100px;
+  top: 460px;
+  left: 800px;
+}
+
+
 @media screen and (max-width: 768px) {
   .products__container {
-    width: 760px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -83,7 +101,7 @@
   }
 
   .products__title {
-    width: 760px;
+    width: 100%;
     display: block;
     text-align: center;
   }
@@ -97,14 +115,14 @@
 
 @media screen and (max-width: 490px) {
   .products__container {
-    width: 480px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   .products__title {
-    width: 480px;
+    width: 100%;
     display: block;
     text-align: center;
   }
@@ -119,14 +137,14 @@
 
 @media screen and (max-width: 390px) {
   .products__container {
-    width: 390px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   .products__title {
-    width: 390px;
+    width: 100%;
     display: block;
     text-align: center;
   }

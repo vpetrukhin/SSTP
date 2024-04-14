@@ -29,11 +29,11 @@
 @import './products.css';
 @import './contacts.css';
 @import './footer.css';
+@import './services.css';
 
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* overflow-x: hidden; */
 } 
 
 a {
@@ -43,6 +43,10 @@ a {
 
 .hidden {
     display: none;
+}
+
+li {
+list-style-type: none;
 }
 
 

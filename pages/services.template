@@ -1,1 +1,23 @@
-<h1>Услуги</h1>
+<!-- <h1>Услуги</h1> -->
+
+<section class="services">
+  <div class="services__container">
+    <h1 class="services__title">Услуги компании</h1>
+  </div>
+  <ul class="services__list">
+    <li>
+      <a class="services__link services__link_project" href="/" target="_blank">
+        <span class="services__name">Проектирование и разработка КМД</span>
+      </a>
+    </li>
+    <li>
+      <a
+        class="services__link services__link_delivery"
+        href="/"
+        target="_blank"
+      >
+        <span class="services__name">Доставка на объекты</span>
+      </a>
+    </li>
+  </ul>
+</section>
