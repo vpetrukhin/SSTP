@@ -46,12 +46,12 @@
 }
 
 .services__link_project {
-  background-image: url("../picture/project.jpg");
+  background-image: url("/project.jpg");
   background-size: 100% 100%;
 }
 
 .services__link_delivery {
-  background-image: url("../picture/builder.jpg");
+  background-image: url("/builder.jpg");
   background-size: 100% 100%;
 }
 

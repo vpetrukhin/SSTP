@@ -1,2 +1,28 @@
-<h1>Контакты</h1>
-<p>В разработке</p>
+<section class="contacts">
+  <div class="contacts__container content">
+    <h1 class="contacts__title_main page-title">Наши контакты</h1>
+    <contact-tabs>
+      <ul slot="contacts-list" class="contacts__list">
+        <li class="contacts__item contacts__item_phone">
+          <a class="link" href="tel:+79999999999">+7 999 999-99-99</a>
+        </li>
+        <li class="contacts__item contacts__item_email">
+          <a class="link" href="mailto:info@ст3nastyl.ru">info@ст3nastyl.ru</a>
+        </li>
+        <li class="contacts__item contacts__item_email">
+          <a class="link" href="mailto:zakaz@ст3nastyl.ru"
+            >zakaz@ст3nastyl.ru</a
+          >
+        </li>
+      </ul>
+    </contact-tabs>
+    <div class="contacts__footer">
+      <h2 class="contacts__title contacts__title_footer">Реквизиты компании</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">OOO «Торговый Дом Металл Полимер»</li>
+        <li class="contacts__item">ИНН7724462549</li>
+        <li class="contacts__item">ОГРН 119774600504</li>
+      </ul>
+    </div>
+  </div>
+</section>

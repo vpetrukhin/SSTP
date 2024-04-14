@@ -1,14 +1,20 @@
 /* normal styles */ 
 @import './normalized.css';
 
-/*fonts */
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+/* variables */
+@import './variables.css';
+
 /* ui-kit styles */
+@import './content.css';
 @import './btn.css';
 @import './link.css';
 @import './wrapper.css';
 @import './logo.css';
+@import './page-title.css';
 
 /* menu styles */
 @import './menu.css';
@@ -21,6 +27,7 @@
 
 @import './page.css';
 @import './products.css';
+@import './contacts.css';
 @import './footer.css';
 @import './services.css';
 
@@ -41,6 +48,7 @@ a {
 li {
 list-style-type: none;
 }
+
 
 
 

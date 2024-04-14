@@ -36,7 +36,7 @@ export const render = (path) => {
   } else if (routes.Certificates.match(path)) {
     result = CertificatesPage();
   } else if (routes.Contacts.match(path)) {
-    result = ContactsPage();
+    result = ContactsPage({ src: "../assets/office.jpg" });
   }
 
   document.querySelector("#content").innerHTML = result;
@@ -47,7 +47,7 @@ export const goTo = (path) => {
   render(path);
 };
 
-const initRouter = () => {
+const initRouter = async () => {
   window.addEventListener("popstate", (e) => {
     render(new URL(window.location.href).pathname);
   });
@@ -58,7 +58,7 @@ const initRouter = () => {
       goTo(path);
     });
   });
-  render(new URL(window.location.href).pathname);
+  return await render(new URL(window.location.href).pathname);
 };
 
 export default initRouter;
