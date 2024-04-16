@@ -36,10 +36,11 @@
   margin: 10px auto 0;
 }
 
-li::before {
+
+.li__about::before {
   content: "	►";
-  color: #ff8c00;
   line-height: 2;
+  color: var(--color-orange);
 }
 
 

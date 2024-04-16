@@ -1,7 +1,7 @@
 <section class="about">
     <div class="about__container">
         <h3 class="about__title">О компании</h3>
-        <img class="about__img" src="/public/proizvodstvo_nastila.jpg" width="720" height="400" alt="производство настила">
+        <img class="about__img" src="/proizvodstvo_nastila.jpg" width="720" height="400" alt="производство настила">
         <div class="about__text">
             <p>
                 <strong>Компания ООО «ТД Металл Полимер»</strong>
@@ -12,14 +12,14 @@
                 Основные виды деятельности компании (производство и торговля):
             </p>
             <ul>
-                <li>
+                <li class="li__about">
                     Нанесение полимерного покрытия на оцинкованную рулонную сталь
                 </li>
-                <li>
+                <li class="li__about">
                     Ограждающий конструкции (сэндвич панели, фасадные кассеты, профнастил
                     различных марок от С8 до Н153)
                 </li>
-                <li>
+                <li class="li__about">
                      Гладкий лист, штрипс, доборные элементы
                 </li>
             </ul> 
@@ -42,15 +42,15 @@
                         <strong>Наши преимущества:</strong>
                     </p>
                     <ul>
-                        <li>Собственное производство</li>
-                        <li>Наличие сертификатов соответствия и ТУ</li>
-                        <li>Разработка монтажных схем и КМД по чертежам Заказчика</li>
+                        <li class="li__about">Собственное производство</li>
+                        <li class="li__about">Наличие сертификатов соответствия и ТУ</li>
+                        <li class="li__about">Разработка монтажных схем и КМД по чертежам Заказчика</li>
                     </ul>
 
                 </div>
                 <div class="about__end">
                     <h3 class="about__title">Карта поставок</h3>
-                    <img class="about__img" src="/public/karta_postavok.jpg" width="800" height="400" alt="карта поставок">
+                    <img class="about__img" src="/karta_postavok.jpg" width="800" height="400" alt="карта поставок">
                 </div>
     </div>
 </section>
