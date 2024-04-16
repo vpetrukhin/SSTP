@@ -1,7 +1,4 @@
-import { appConstants } from "../common/const";
 import "../styles/index.css";
-
-const initTab = appConstants.contacts.tabs.office;
 
 const styles = `
 .btn {
