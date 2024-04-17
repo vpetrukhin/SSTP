@@ -29,8 +29,10 @@
 @import './products.css';
 @import './contacts/contacts.css';
 @import './footer.css';
-@import './services.css';
+@import './services/services.css';
 @import './about.css';
+@import './servicesProject.css';
+@import './servecesDelivery.css';
 
 
 body {
