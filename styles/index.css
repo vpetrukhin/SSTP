@@ -29,7 +29,8 @@
 @import './products.css';
 @import './contacts/contacts.css';
 @import './footer.css';
-@import './services/services.css';
+@import './services.css';
+@import './about.css';
 
 
 body {
@@ -47,6 +48,10 @@ a {
 
 li {
 list-style-type: none;
+}
+
+p {
+    margin: 0;
 }
 
 

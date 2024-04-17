@@ -1,0 +1,47 @@
+.about {
+  padding-top: 50px;
+}
+
+.about__container {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 0 45px;
+}
+
+.about__img {
+  justify-content: center;
+  margin: 0 0 40px 0;
+  object-fit: cover;
+}
+
+.about__img img {
+  filter: brightness(40%);
+}
+
+.about__text {
+  text-align: start;
+  width: 80%;
+  margin: 10px auto 0;
+}
+
+
+.li__about::before {
+  content: "	►";
+  line-height: 2;
+  color: var(--color-orange);
+}
+
+
+
