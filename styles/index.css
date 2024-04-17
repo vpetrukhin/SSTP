@@ -12,7 +12,7 @@
 @import './content.css';
 @import './btn.css';
 @import './link.css';
-@import './wrapper.css';
+@import './wrapper/wrapper.css';
 @import './logo.css';
 @import './page-title.css';
 
@@ -27,7 +27,7 @@
 
 @import './page.css';
 @import './products.css';
-@import './contacts.css';
+@import './contacts/contacts.css';
 @import './footer.css';
 @import './services.css';
 @import './about.css';

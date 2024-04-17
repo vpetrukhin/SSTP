@@ -1,4 +1,4 @@
-import { appConstants } from "../common/const";
+import { appConfig } from "../common";
 import Route from "route-parser";
 
 import MainPage from "../pages/main.template";
@@ -10,13 +10,13 @@ import CertificatesPage from "../pages/certificates.template";
 import ContactsPage from "../pages/contacts.template";
 
 export const routes = {
-  Main: new Route(appConstants.routes.index),
-  Services: new Route(appConstants.routes.services),
-  Products: new Route(appConstants.routes.products),
-  Manufacture: new Route(appConstants.routes.manufacture),
-  About: new Route(appConstants.routes.about),
-  Certificates: new Route(appConstants.routes.certificates),
-  Contacts: new Route(appConstants.routes.contacts),
+  Main: new Route(appConfig.routes.index),
+  Services: new Route(appConfig.routes.services),
+  Products: new Route(appConfig.routes.products),
+  Manufacture: new Route(appConfig.routes.manufacture),
+  About: new Route(appConfig.routes.about),
+  Certificates: new Route(appConfig.routes.certificates),
+  Contacts: new Route(appConfig.routes.contacts),
 };
 
 export const render = (path) => {

@@ -1,7 +1,7 @@
-import { appConstants } from "../common/const";
+import { appConfig } from "../common";
 import "../styles/index.css";
 
-const initTab = appConstants.contacts.tabs.office;
+const initTab = appConfig.contacts.tabs.office;
 
 const styles = `
 .contacts__inner {
@@ -102,7 +102,7 @@ class ContactTabs extends HTMLElement {
   }
 
   updateTab(currentTab) {
-    const currentTabConfig = appConstants.contacts.tabs[currentTab.id];
+    const currentTabConfig = appConfig.contacts.tabs[currentTab.id];
 
     this.shadowRoot.querySelector(".contacts__img").src = currentTabConfig.src;
     this.shadowRoot.querySelector(".contacts__address").textContent =
