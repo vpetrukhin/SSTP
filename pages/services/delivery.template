@@ -1,0 +1,26 @@
+<section class="servicesDelivery">
+  <div class="servicesDelivery__container">
+    <h1 class="services__title">Доставка на объекты</h1>
+    <div class="servicesBlock">
+      <div class="servicesBlock__title">
+        <p>Стоимость</p>
+      </div>
+      <ul
+        class="servicesBlock__description servicesBlock__description_delivery"
+      >
+        <li class="servicesBlock__description_marker">
+          Наша компания осуществляет доставку по всей территории РФ.
+        </li>
+        <li class="servicesBlock__description_marker">
+          Стоимость доставки в Коммерческом предложении указывается отдельно от
+          стоимости продукции
+        </li>
+        <li class="servicesBlock__description_marker">
+          При наличии собственного транспорта Вы можете забрать продукцию на
+          условиях самовывоза с нашего производства находящегося по адресу:
+          Калужская область, п. Льва Толстого, улица ……
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
