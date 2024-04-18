@@ -10,8 +10,8 @@ export const appConfig = {
     about: "/about",
     certificates: "/certificates",
     contacts: "/contacts",
-    servicesProject: "/servicesProject",
-    servicesDelivery: "/servicesDelivery",
+    servicesProject: "/services/project",
+    servicesDelivery: "/services/delivery",
   },
   contacts: {
     tabs: {

@@ -8,8 +8,8 @@ import ManufacturePage from "../pages/manufacture.template";
 import AboutPage from "../pages/about.template";
 import CertificatesPage from "../pages/certificates.template";
 import ContactsPage from "../pages/contacts.template";
-import ServicesProject from "../pages/servicesProject.template";
-import ServicesDelivery from "../pages/servicesDelivery.template";
+import ServicesProjectPage from "../pages/services/project.template";
+import ServicesDeliveryPage from "../pages/services/delivery.template";
 
 
 
@@ -44,9 +44,9 @@ export const render = (path) => {
   } else if (routes.Contacts.match(path)) {
     result = ContactsPage({ src: "../assets/office.jpg" });
   } else if (routes.ServicesProject.match(path)) {
-    result = ServicesProject();
+    result = ServicesProjectPage();
   } else if (routes.ServicesDelivery.match(path)) {
-    result = ServicesDelivery();
+    result = ServicesDeliveryPage();
   }
 
 

@@ -37,7 +37,7 @@
 }
 
 
-.li__about::before {
+.about__text_marker::before {
   content: "	►";
   line-height: 2;
   color: var(--color-orange);
