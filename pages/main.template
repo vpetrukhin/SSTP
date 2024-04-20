@@ -7,9 +7,11 @@
   <div class="products__container">
     <h2 class="products__title">Наша продукция</h2>
     <img class="product__img product__img_img1" src="/reshetka.png" alt="picture">
-    <img class="product__img product__img_img2" src="/skruchenaya.png" alt="picture">
-    <img class="product__img product__img_img3" src="/reshetkashirok.png" alt="picture">
-    <img class="product__img product__img_img4" src="/tablisa.png" alt="picture"> 
+    <img class="product__img product__img_img2" src="/perevertish.png" alt="picture">
+    <img class="product__img product__img_img3" src="/shirokayareshetka.png" alt="picture">
+    <img class="product__img product__img_img4" src="/tablisashiphr.png" alt="picture"> 
+    <img class="product__img product__img_img5" src="/reshetka_s_ciphrami.png" alt="picture"> 
+    <img class="product__img product__img_img6" src="/tablisa.png" alt="picture"> 
     <ul class="products__track">
       <li class="product product__link">
         <a href="#" class="product__link" target="_blank">
