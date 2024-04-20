@@ -65,10 +65,10 @@
 
 }
 .product__img_img1 {
-  width: 250px;
-  height: 150px;
-  left: -350px;
-  top: 440px;
+  width: 270px;
+  height: 167px;
+  left: 200px;
+  top: 340px;
 
 }
 
@@ -80,15 +80,29 @@
 
 .product__img_img3 {
   width: 220px;
-  top: 400px;
-  left: 300px;
+    top: 460px;
+    left: -300px;
 }
 
 .product__img_img4 {
   width: 250px;
+    height: 100px;
+    top: 10px;
+    left: 800px;
+}
+
+.product__img_img5 {
+  width: 250px;
   height: 100px;
+  top: 260px;
+  left: -190px;
+}
+
+.product__img_img6 {
+  width: 280px;
+  height: 150px;
   top: 460px;
-  left: 800px;
+  left: 780px;
 }
 
 
