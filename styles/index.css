@@ -26,7 +26,7 @@
 @import './header.css';
 
 @import './page.css';
-@import './products.css';
+@import './products/products.css';
 @import './contacts/contacts.css';
 @import './footer.css';
 @import './services/services.css';
