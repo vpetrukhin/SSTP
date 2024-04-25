@@ -25,3 +25,31 @@ export const appConfig = {
     },
   },
 };
+
+
+export const menuLinks = [
+  {
+    text: "Продукция",
+    href: appConfig.routes.products,
+  },
+  {
+    text: "Производство",
+    href: appConfig.routes.manufacture,
+  },
+  {
+    text: "Услуги",
+    href: appConfig.routes.services,
+  },
+  {
+    text: "О компании",
+    href: appConfig.routes.about,
+  },
+  {
+    text: "Сертификаты",
+    href: appConfig.routes.certificates,
+  },
+  {
+    text: "Контакты",
+    href: appConfig.routes.contacts,
+  },
+];

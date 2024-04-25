@@ -1,8 +1,4 @@
-<section class="wrapper">
-  <div class="wrapper__container">
-    <h1 class="wrapper__title">Производитель решетчатого настила</h1>
-  </div>
-</section>
+<app-layout header="main">
 <section class="products">
   <div class="products__container">
     <h2 class="products__title">Наша продукция</h2>
@@ -29,3 +25,4 @@
     </ul>  
   </div>
 </section>
+</app-layout>
