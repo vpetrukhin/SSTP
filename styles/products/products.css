@@ -2,7 +2,10 @@
   width: 100%;
   height: 530px;
   padding: 40px 0;
-  background-image: linear-gradient(#d7d7d7, #808080);
+  background-image: url("./mainphoto_products.png");
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: 100% 100%;
 }
 
 .products__container {
@@ -14,8 +17,8 @@
 }
 
 .products__title {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 37px;
+  font-weight: 700;
   text-align: center;
   margin: 0 auto;
   position: relative;
@@ -33,8 +36,8 @@
 }
 
 .product {
-  width: 250px;
-  height: 150px;
+  width: 270px;
+  height: 170px;
   border: 1px solid black;
   justify-content: space-between;
   
@@ -43,32 +46,74 @@
 
 .product__title {
   margin: 0;
-  margin-top: 10px;
-  text-align: center;
-  font-size: 23px;
-  color: black;
+  font-size: 26px;
+  font-weight: 700;
+  z-index: 1;
+  /* padding: 0 0 15px 60px; */
 }
 
+
+/* .product__link {
+  display: block;
+  width: 270px;
+  height: 170px;
+} */
 
 .product__link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 170px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.product__link:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
-  width: 250px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+
+}
+
+
+.product__link_nastil {
+  background-image: url("./main_nastil.jpg");
+  background-size: 100% 100%;
+}
+
+.product__link_steps {
+  background-image: url("./main_steps.jpg");
+  background-size: 100% 100%;
+}
+
+.product__link_fasteners {
+  background-image: url("./main_fasteners.jpg");
+  background-size: 100% 100%;
 }
 
 
 
-.product__img {
+
+
+/* .product__img {
   width: 100px;
   height: 100px;
   position: absolute;
 
 }
 .product__img_img1 {
-  width: 250px;
-  height: 150px;
-  left: -350px;
-  top: 440px;
+  width: 270px;
+  height: 167px;
+  left: 200px;
+  top: 340px;
 
 }
 
@@ -80,16 +125,30 @@
 
 .product__img_img3 {
   width: 220px;
-  top: 400px;
-  left: 300px;
+    top: 460px;
+    left: -300px;
 }
 
 .product__img_img4 {
   width: 250px;
-  height: 100px;
-  top: 460px;
-  left: 800px;
+    height: 100px;
+    top: 10px;
+    left: 800px;
 }
+
+.product__img_img5 {
+  width: 250px;
+  height: 100px;
+  top: 260px;
+  left: -190px;
+}
+
+.product__img_img6 {
+  width: 280px;
+  height: 150px;
+  top: 460px;
+  left: 780px;
+} */
 
 
 @media screen and (max-width: 768px) {

@@ -8,6 +8,10 @@ import ManufacturePage from "../pages/manufacture.template";
 import AboutPage from "../pages/about.template";
 import CertificatesPage from "../pages/certificates.template";
 import ContactsPage from "../pages/contacts.template";
+import ServicesProjectPage from "../pages/services/project.template";
+import ServicesDeliveryPage from "../pages/services/delivery.template";
+
+
 
 export const routes = {
   Main: new Route(appConfig.routes.index),
@@ -17,6 +21,8 @@ export const routes = {
   About: new Route(appConfig.routes.about),
   Certificates: new Route(appConfig.routes.certificates),
   Contacts: new Route(appConfig.routes.contacts),
+  ServicesProject: new Route(appConfig.routes.servicesProject),
+  ServicesDelivery: new Route(appConfig.routes.servicesDelivery),
 };
 
 export const render = (path) => {
@@ -37,7 +43,12 @@ export const render = (path) => {
     result = CertificatesPage();
   } else if (routes.Contacts.match(path)) {
     result = ContactsPage({ src: "../assets/office.jpg" });
+  } else if (routes.ServicesProject.match(path)) {
+    result = ServicesProjectPage();
+  } else if (routes.ServicesDelivery.match(path)) {
+    result = ServicesDeliveryPage();
   }
+
 
   document.querySelector("#content").innerHTML = result;
 };
