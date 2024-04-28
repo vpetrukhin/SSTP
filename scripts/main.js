@@ -6,5 +6,5 @@ import "../components";
 initRouter();
 console.log("Script is working...");
 
-initMenu("categories");
+// initMenu("categories");
 

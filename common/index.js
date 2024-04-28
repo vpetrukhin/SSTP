@@ -1,1 +1,1 @@
-export { appConfig } from "./app-config/appConfig";
+export { appConfig, menuLinks } from "./app-config/appConfig";

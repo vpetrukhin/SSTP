@@ -1,33 +1,32 @@
-<section class="wrapper">
-  <div class="wrapper__container">
-    <h1 class="wrapper__title">Производитель решетчатого настила</h1>
-  </div>
-</section>
-<section class="products">
-  <div class="products__container">
-    <h2 class="products__title">Наша продукция</h2>
-    <!-- <img class="product__img product__img_img1" src="/reshetka.png" alt="picture">
-    <img class="product__img product__img_img2" src="/perevertish.png" alt="picture">
-    <img class="product__img product__img_img3" src="/shirokayareshetka.png" alt="picture">
-    <img class="product__img product__img_img4" src="/tablisashiphr.png" alt="picture"> 
-    <img class="product__img product__img_img5" src="/reshetka_s_ciphrami.png" alt="picture"> 
-    <img class="product__img product__img_img6" src="/tablisa.png" alt="picture">  -->
-    <ul class="products__track">
-      <li class="product product__link">
-        <a href="#" class="product__link product__link_nastil" target="_blank">
-          <h3 class="product__title">Сварной настил</h3>
-        </a>
-      </li>
-      <li class="product product__link">
-        <a href="#" class="product__link product__link_steps" target="_blank">
-          <h3 class="product__title">Ступени</h3>
-        </a>
-      </li>
-      <li class="product product__link">
-        <a href="#" class="product__link product__link_fasteners" target="_blank">
-          <h3 class="product__title">Крепеж</h3>
-        </a>
-      </li>
-    </ul>  
-  </div>
-</section>
+<app-layout header="main">
+  <section class="products">
+    <div class="products__container">
+      <h2 class="products__title">Наша продукция</h2>
+      <ul class="products__track">
+        <li class="product product__link">
+          <a
+            href="#"
+            class="product__link product__link_nastil"
+            target="_blank"
+          >
+            <h3 class="product__title">Сварной настил</h3>
+          </a>
+        </li>
+        <li class="product product__link">
+          <a href="#" class="product__link product__link_steps" target="_blank">
+            <h3 class="product__title">Ступени</h3>
+          </a>
+        </li>
+        <li class="product product__link">
+          <a
+            href="#"
+            class="product__link product__link_fasteners"
+            target="_blank"
+          >
+            <h3 class="product__title">Крепеж</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</app-layout>
