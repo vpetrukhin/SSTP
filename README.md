@@ -38,3 +38,7 @@ script
 ```css
     background-image: url("./mainbg.jpg");
 ```
+
+## Компоненты
+- [app-layout](./components/layout/README.md)
+- [logo](./components/logo/README.md)

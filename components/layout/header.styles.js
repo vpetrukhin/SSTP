@@ -2,6 +2,10 @@ import { css } from "lit";
 
 export const headerStyles = css`
   .header {
+    background: white;
+  }
+
+  .header_main {
     background: center / cover no-repeat url("/mainbg.jpg");
   }
 

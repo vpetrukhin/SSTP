@@ -1,18 +1,18 @@
-<section class="servicesProject">
+<app-layout>
+  <section class="servicesProject">
     <div class="servicesProject__container">
-        <h1 class="services__title">Проектирование и разработка КМД</h1>
-        <div class="servicesBlock">
-            <div class="servicesBlock__title">
-                <p>Разработка монтажных схем и КМД по чертежам заказчика</p>
-            </div>
-            <ul class="servicesBlock__description">
-                <li class="servicesBlock__description_marker"> Стоимость услуги входит в стоимость продукции,
-                    если заказ на решетчатый настил Вы размещаете 
-                    в нашей компании.</li>
-
-            </ul>
-            
+      <h1 class="services__title">Проектирование и разработка КМД</h1>
+      <div class="servicesBlock">
+        <div class="servicesBlock__title">
+          <p>Разработка монтажных схем и КМД по чертежам заказчика</p>
         </div>
+        <ul class="servicesBlock__description">
+          <li class="servicesBlock__description_marker">
+            Стоимость услуги входит в стоимость продукции, если заказ на
+            решетчатый настил Вы размещаете в нашей компании.
+          </li>
+        </ul>
+      </div>
     </div>
-
-</section>
+  </section>
+</app-layout>

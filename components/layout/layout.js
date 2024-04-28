@@ -1,9 +1,20 @@
-import { LitElement, html } from "lit";
+import { LitElement, html, css } from "lit";
 import { headerStyles } from "./header.styles";
 import { menuStyles } from "./menu.styles";
 import { menuLinks } from "../../common/app-config/appConfig";
 import { classMap } from "lit/directives/class-map.js";
 import { burgerBtnStyles } from "./burger-btn.styles";
+
+const styles = css`
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__content {
+    flex: 1;
+  }
+`;
 
 export class Layout extends LitElement {
   static properties = {
@@ -11,12 +22,15 @@ export class Layout extends LitElement {
     isMenuOpen: { type: Boolean, attribute: false, state: true },
   };
 
-  static styles = [burgerBtnStyles, menuStyles, headerStyles];
+  static styles = [burgerBtnStyles, menuStyles, headerStyles, styles];
 
   constructor() {
     super();
     this.isMenuOpen = false;
-    this.header = "main";
+  }
+
+  get isMain() {
+    return this.header === "main";
   }
 
   renderMenu() {
@@ -52,9 +66,12 @@ export class Layout extends LitElement {
 
   renderHeader() {
     const burgerBtnClasses = { "burger-btn_open": this.isMenuOpen };
+    const headerClasses = {
+      header_main: this.isMain,
+    };
 
     return html`
-      <header class="header open">
+      <header class="header ${classMap(headerClasses)}">
         <div class="header__content">
           <div class="header__inner">
             <div class="header__logo">
@@ -77,15 +94,17 @@ export class Layout extends LitElement {
           </button>
           ${this.renderMenu()}
         </div>
-        ${this.header === "main" && this.renderHeaderFooter()}
+        ${this.isMain ? this.renderHeaderFooter() : null}
       </header>
     `;
   }
 
   renderMain() {
     return html`
-      <main>
-        <slot></slot>
+      <main class="main">
+        <div class="main__content">
+          <slot></slot>
+        </div>
       </main>
     `;
   }
