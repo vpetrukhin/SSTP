@@ -4,3 +4,4 @@ import "./layout";
 import "./logo/logo";
 import "./menu";
 import "./link";
+import "./img-link";
