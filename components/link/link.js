@@ -1,6 +1,6 @@
 import { css, html } from "lit";
 import { classMap } from "lit/directives/class-map.js";
-import { AppLinkLitElement } from "./mixins/app-link";
+import { AppLinkLitElement } from "../mixins/app-link";
 
 const linkStyles = css`
   .link {

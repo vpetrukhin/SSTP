@@ -3,5 +3,5 @@ import "./button";
 import "./layout";
 import "./logo/logo";
 import "./menu";
-import "./link";
-import "./img-link";
+import "./link/link";
+import "./img-link/img-link";
