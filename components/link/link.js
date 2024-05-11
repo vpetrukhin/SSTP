@@ -1,6 +1,6 @@
-import { LitElement, css, html } from "lit";
-import { goTo } from "../scripts/Router";
+import { css, html } from "lit";
 import { classMap } from "lit/directives/class-map.js";
+import { AppLinkLitElement } from "../mixins/app-link";
 
 const linkStyles = css`
   .link {
@@ -18,17 +18,17 @@ const linkStyles = css`
     color: black;
   }
 
-  ::slotted(*) {
-    position: relative;
-    box-sizing: border-box;
+  .link_full-size {
+    display: inline-block;
+    width: 100%;
     height: 100%;
   }
 `;
 
-export class Link extends LitElement {
+export class Link extends AppLinkLitElement {
   static properties = {
-    href: { type: String },
     isMenu: { type: Boolean, attribute: "is-menu" },
+    isFullSize: { type: Boolean, attribute: "is-full-size" },
     class: { type: String, attribute: "class" },
   };
 
@@ -39,24 +39,21 @@ export class Link extends LitElement {
 
   static styles = [linkStyles];
 
-  #handleClick(event) {
-    event.preventDefault();
-
-    goTo(this.href);
-  }
-
   render() {
-    const classes = { link_menu: this.isMenu };
+    const classes = {
+      link_menu: this.isMenu,
+      "link_full-size": this.isFullSize,
+    };
     this.class.split(" ").forEach((cls) => {
       classes[cls] = true;
     });
     return html`
       <a
-        class="${classMap(classes)} link "
+        class="${classMap(classes)} link"
         href="${this.href}"
-        @click="${this.#handleClick}"
+        @click="${this.handleClick}"
       >
-        <slot></slot>
+          <slot></slot>
       </a>
     `;
   }
