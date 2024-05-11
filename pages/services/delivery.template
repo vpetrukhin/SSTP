@@ -3,9 +3,9 @@
     <div class="servicesDelivery__container">
       <h1 class="services__title">Доставка на объекты</h1>
       <div class="servicesBlock">
-        <div class="servicesBlock__title">
+        <!-- <div class="servicesBlock__title">
           <p>Стоимость</p>
-        </div>
+        </div> -->
         <ul
           class="servicesBlock__description servicesBlock__description_delivery"
         >
@@ -19,9 +19,13 @@
           <li class="servicesBlock__description_marker">
             При наличии собственного транспорта Вы можете забрать продукцию на
             условиях самовывоза с нашего производства находящегося по адресу:
-            Калужская область, п. Льва Толстого, улица ……
+            Калужская область, п. Льва Толстого, улица
           </li>
         </ul>
+        <img class="delivery__img1" src="/dostavka_avto.jpg" alt="фура">
+        <img class="delivery__img2" src="/dostavka_poezd.jpg" alt="поезд">
+
+        
       </div>
     </div>
   </section>

@@ -9,14 +9,21 @@
   padding: 0;
 }
 
+.servicesBlock{
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px grey solid; */
+}
+
 .servicesBlock__title {
   display: block;
   height: 60px;
   font-size: 25px;
   font-weight: 500;
-  background-color: var(--color-orange);
   text-align: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .servicesBlock__description_delivery {
@@ -25,5 +32,24 @@
   font-size: 20px;
   font-weight: 200;
   text-align: start;
-  padding-top: 20px;
+  /* padding-top: 20px; */
+}
+
+
+.delivery__img1 {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  object-fit: cover;
+}
+
+.delivery__img2 {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: 250px;
+  left: 1070px;
+  object-fit: cover;
 }
