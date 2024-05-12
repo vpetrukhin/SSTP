@@ -9,12 +9,10 @@
   padding: 0;
 }
 
-.servicesBlock{
+.servicesBlock {
   width: 720px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* border: 1px grey solid; */
 }
 
 .servicesBlock__title {
@@ -23,7 +21,6 @@
   font-size: 25px;
   font-weight: 500;
   text-align: center;
-  /* padding-top: 20px; */
 }
 
 .servicesBlock__description_delivery {
@@ -32,24 +29,21 @@
   font-size: 20px;
   font-weight: 200;
   text-align: start;
-  /* padding-top: 20px; */
 }
 
-
-.delivery__img1 {
+.delivery__img {
   height: 350px;
   width: 350px;
   position: absolute;
+  object-fit: cover;
+}
+
+.delivery__img_avto {
   top: 250px;
   left: 10px;
-  object-fit: cover;
 }
 
-.delivery__img2 {
-  height: 350px;
-  width: 350px;
-  position: absolute;
+.delivery__img_poezd {
   top: 250px;
   left: 1070px;
-  object-fit: cover;
 }

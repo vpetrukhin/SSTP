@@ -1,5 +1,3 @@
-
-
 .servicesProject__container {
   width: 100%;
   height: 700px;
@@ -7,7 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url('./photo_services_project.png');
+  background-image: url("./photo_services_project.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -20,7 +18,6 @@
   margin: 0;
   position: absolute;
   top: 200px;
-
 }
 
 .servicesProject__block {
@@ -28,16 +25,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: 1px grey solid; */
 }
-/* .servicesBlock__title {
-  display: block;
-  height: 60px;
-  font-size: 25px;
-  font-weight: 300;
-  text-align: center;
-  padding-top: 20px;
-} */
 
 .servicesProject__description {
   display: block;

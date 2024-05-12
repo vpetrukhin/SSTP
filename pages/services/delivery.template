@@ -3,9 +3,6 @@
     <div class="servicesDelivery__container">
       <h1 class="services__title">Доставка на объекты</h1>
       <div class="servicesBlock">
-        <!-- <div class="servicesBlock__title">
-          <p>Стоимость</p>
-        </div> -->
         <ul
           class="servicesBlock__description servicesBlock__description_delivery"
         >
@@ -22,10 +19,16 @@
             Калужская область, п. Льва Толстого, улица
           </li>
         </ul>
-        <img class="delivery__img1" src="/dostavka_avto.jpg" alt="фура">
-        <img class="delivery__img2" src="/dostavka_poezd.jpg" alt="поезд">
-
-        
+        <img
+          class="delivery__img delivery__img_avto"
+          src="/dostavka_avto.jpg"
+          alt="фура"
+        />
+        <img
+          class="delivery__img delivery__img_poezd"
+          src="/dostavka_poezd.jpg"
+          alt="поезд"
+        />
       </div>
     </div>
   </section>
