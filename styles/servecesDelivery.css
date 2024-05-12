@@ -9,14 +9,18 @@
   padding: 0;
 }
 
+.servicesBlock {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+}
+
 .servicesBlock__title {
   display: block;
   height: 60px;
   font-size: 25px;
   font-weight: 500;
-  background-color: var(--color-orange);
   text-align: center;
-  padding-top: 20px;
 }
 
 .servicesBlock__description_delivery {
@@ -25,5 +29,21 @@
   font-size: 20px;
   font-weight: 200;
   text-align: start;
-  padding-top: 20px;
+}
+
+.delivery__img {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.delivery__img_avto {
+  top: 250px;
+  left: 10px;
+}
+
+.delivery__img_poezd {
+  top: 250px;
+  left: 1070px;
 }
