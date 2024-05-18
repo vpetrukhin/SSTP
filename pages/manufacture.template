@@ -1,4 +1,18 @@
 <app-layout>
-  <h1>Производство</h1>
-  <p>В разработке</p>
+  <section class="manufacture">
+    <div class="manufacture__container">
+      <h3 class="manufacture__title">Наше производство</h3>
+      <div class="manufacture-video">
+        <video class="manufacture-video_video1" src="/manufacture_video1.mp4" controls="controls" width="450px" height="400px"></video>
+        <video class="manufacture-video_video2" src="/manufacture_video2.mp4"  controls="controls" width="450px" height="400px"></video>
+      </div>
+      <h3 class="manufacture__title">Наши работы</h3>
+      <div class="manufacture__gallery">
+        <img class="manufacture__photo manufacture__photo_nastil" src="../public/manufacture_nastil.jpeg">
+        <img class="manufacture__photo manufacture__photo_steps" src="../public/manufacture_nastil2.jpeg">
+        <img class="manufacture__photo manufacture__photo_fastener" src="../public/manufacture_fastner.jpeg">
+      </div>
+    </div>
+  </section>
+
 </app-layout>
