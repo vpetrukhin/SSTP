@@ -1,6 +1,6 @@
 .servicesDelivery__container {
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,17 +10,22 @@
 }
 
 .servicesBlock {
-  width: 720px;
+  width: 800px;
   display: flex;
   flex-direction: column;
 }
 
 .servicesBlock__title {
-  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 40px 0 25px;
+  /* display: block;
   height: 60px;
   font-size: 25px;
   font-weight: 500;
-  text-align: center;
+  text-align: center; */
 }
 
 .servicesBlock__description_delivery {
@@ -31,9 +36,9 @@
   text-align: start;
 }
 
-.delivery__img {
-  height: 350px;
-  width: 350px;
+/* .delivery__img {
+  height: 200px;
+  width: 200px;
   position: absolute;
   object-fit: cover;
 }
@@ -46,4 +51,4 @@
 .delivery__img_poezd {
   top: 250px;
   left: 1070px;
-}
+} */
