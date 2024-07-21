@@ -8,9 +8,10 @@
       </div>
       <h3 class="manufacture__title">Наши работы</h3>
       <div class="manufacture__gallery">
-        <img class="manufacture__photo manufacture__photo_nastil" src="/manufacture_nastil.jpeg">
-        <img class="manufacture__photo manufacture__photo_steps" src="/manufacture_nastil2.jpeg">
-        <img class="manufacture__photo manufacture__photo_fastener" src="/manufacture_fastner.jpeg">
+        <img class="manufacture__photo manufacture__photo_nastil" src="/manufacture_nastil.jpg">
+        <img class="manufacture__photo manufacture__photo_steps" src="/manufacture_fasteners.jpg">
+        <img class="manufacture__photo manufacture__photo_fastener" src="/manufacture_products.jpg">
+        <img class="manufacture__photo manufacture__photo_fastener" src="/manufacture_products2.jpg">
       </div>
     </div>
   </section>
