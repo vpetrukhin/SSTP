@@ -19,6 +19,22 @@ export const menuStyles = css`
     justify-content: space-between;
   }
 
+  .groups {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    backgroud: #fff;
+    z-index: 10;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
   @media screen and (max-width: 865px) {
     .menu {
       position: fixed;

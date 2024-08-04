@@ -33,20 +33,64 @@ export class Layout extends LitElement {
     return this.header === "main";
   }
 
+  renderDropdownContent(groups) {
+    return html`
+      <ul class="groups">
+        ${groups.map(
+          (group) => html`
+            <li class="groups__item group">
+              <h3 class="group__title">${group.text}</h3>
+              ${group.links?.map(
+                (childLink) => html`
+                  <app-link
+                    class="menu__link"
+                    is-menu="true"
+                    href=${childLink.href}
+                    >${childLink.text}</app-link
+                  >
+                `,
+              )}
+            </li>
+          `,
+        )}
+      </ul>
+    `;
+  }
+
+  renderMenuItem(item) {
+    if (item.childrens?.length) {
+      return html`
+        <app-dropdown>
+          <app-link
+            slot="trigger"
+            class="menu__link"
+            is-menu="true"
+            href="${item.href}"
+            >${item.text}</app-link
+          >
+          <div slot="content">
+            ${this.renderDropdownContent(item.childrens)}
+          </div>
+        </app-dropdown>
+      `;
+    }
+
+    return html`
+      <li class="menu__item">
+        <app-link class="menu__link" is-menu="true" href="${item.href}"
+          >${item.text}</app-link
+        >
+      </li>
+    `;
+  }
+
   renderMenu() {
     const classes = { menu_open: this.isMenuOpen };
 
     return html`
       <nav class="menu ${classMap(classes)}">
         <ul class="menu__links">
-          ${menuLinks.map(
-            (link) =>
-              html`<li class="menu__item">
-                <app-link class="menu__link" is-menu="true" href="${link.href}"
-                  >${link.text}</app-link
-                >
-              </li>`,
-          )}
+          ${menuLinks.map((link) => this.renderMenuItem(link))}
         </ul>
       </nav>
     `;
