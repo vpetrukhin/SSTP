@@ -28,11 +28,55 @@ export const appConfig = {
   },
 };
 
-
 export const menuLinks = [
   {
     text: "Продукция",
     href: appConfig.routes.products,
+    childrens: [
+      {
+        text: "Сварной настил",
+        links: [
+          {
+            text: "Сварной настил",
+            href: appConfig.routes.products,
+          },
+          {
+            text: "Настил с противоскольжением",
+            href: appConfig.routes.products,
+          },
+          {
+            text: "Настил для стелажей",
+            href: appConfig.routes.products,
+          },
+        ],
+      },
+      {
+        text: "Ступени",
+        links: [
+          {
+            text: "Ступени",
+            href: appConfig.routes.products,
+          },
+          {
+            text: "Сварные ступени",
+            href: appConfig.routes.products,
+          },
+          {
+            text: "Ступени с противоскольжением",
+            href: appConfig.routes.products,
+          },
+        ],
+      },
+      {
+        text: "Другое",
+        links: [
+          {
+            text: "Крепеж",
+            href: appConfig.routes.products,
+          },
+        ],
+      },
+    ],
   },
   {
     text: "Производство",
