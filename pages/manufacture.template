@@ -16,13 +16,6 @@
       <h3 class="manufacture__title">Наши работы</h3>
       <!-- <div class="manufacture__gallery"> -->
       <slider-component>
-          <img class="manufacture__photo manufacture__photo_nastil" src="/manufacture_fasteners.png">
-          <img class="manufacture__photo manufacture__photo_steps" src="/manufacture_nastil.png">
-          <img class="manufacture__photo manufacture__photo_fastener" src="/manufacture_products.png">
-          <img class="manufacture__photo manufacture__photo_fastener" src="/manufacture_products2.jpg">
-          <img class="manufacture__photo manufacture__photo_nastil" src="/public/manufacture_nastilDop.jpeg">
-          <img class="manufacture__photo manufacture__photo_steps" src="/public/manufacture_fastnerDop.jpeg">
-          <img class="manufacture__photo manufacture__photo_astene" src="/public/manufacture_nastil2Dop.jpeg">
     </slider-component>
   <!-- </div> -->
 
