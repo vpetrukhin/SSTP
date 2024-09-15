@@ -44,12 +44,17 @@ import { LitElement, html, css } from 'lit';
        super();
        this.slides = [
         '/manufacture_nastil.png',
-        '/manufacture_fasteners.png',
         '/manufacture_products.png',
         '/manufacture_products2.jpg',
-        '/public/manufacture_nastilDop.jpeg',
-        '/public/manufacture_fastnerDop.jpeg',
-        '/public/manufacture_nastil2Dop.jpeg'
+        '/manufacture_nastilDop.jpeg',
+        '/manufacture_fastnerDop.jpeg',
+        '/manufacture_nastil2Dop.jpeg',
+        '/ourWork.jpg',
+        '/ourWork1.jpg',
+        '/ourWork2.jpg',
+        '/ourWork3.jpeg',
+        '/ourWork4.jpeg'
+
 
        ];
        this.currentIndex = 0;

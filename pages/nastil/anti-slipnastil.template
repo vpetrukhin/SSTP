@@ -1,0 +1,83 @@
+<app-layout>
+    <section class="anti-slip-nastil">
+        <div class="anti-slip-nastil__container">
+            <h2 class="anti-slip-nastil__title">Настил с противоскольжением</h2>
+            <div class="anti-slip-nastil__description"></div>
+            <p>
+                Противоскольжение- это нанесенная на несущие (сварной настил) или несущие
+                 и связующие полосы (прессованный настил) перфорация, 
+                увеличивающая безопасность прохождения по участкам с высоким риском проскальзывания.
+            </p>
+            <p>
+                Сварной или прессованный настил с элементами противоскольжения обеспечит безопасность
+                 и защитит от травматизма на производстве и в повседневной жизни при применении:
+                 <ul>
+                    <li class="anti-slip-nastil__text_marker">
+                        Высотные площадки обслуживания и переходы подвергающиеся снего-ветровым нагрузкам
+                    </li>
+                    <li class="anti-slip-nastil__text_marker">
+                        Подъезды, эстакады и пандусы
+                    </li>
+                    <li class="anti-slip-nastil__text_marker">
+                        Лестницы и пролёты
+                    </li>
+                    <li class="anti-slip-nastil__text_marker">
+                        Палубы на судах и буровых установках
+                    </li>
+                    <li class="anti-slip-nastil__text_marker">
+                        Входные группы в магазинах и супермаркетах
+                    </li>
+                 </ul>
+            </p>
+            <p>
+                <strong>Типы противоскольжения для решетчатого настила:</strong>
+                <ul>
+                    <li class="anti-slip-nastil__text_marker">
+                        <strong>S4 «Зубья пилы»</strong>
+                    </li>
+                    <img
+                    class="anti-slip-nastil__img"
+                    src="/pressnastil2.png"
+                    width="600"
+                    height="500"
+                    alt="рисунок настила"
+                    />
+                    <li class="anti-slip-nastil__text_marker">
+                        <strong>S5 «Радиус»</strong>
+                    </li>
+                    <img
+                    class="anti-slip-nastil__img"
+                    src="/pressnastil3.png"
+                    width="600"
+                    height="500"
+                    alt="рисунок настила"
+                    />
+
+                    <li class="anti-slip-nastil__text_marker">
+                        <strong>S6 «Трапеция»</strong>
+                    </li>
+                    <img
+                    class="anti-slip-nastil__img"
+                    src="/pressnastil4.png"
+                    width="600"
+                    height="500"
+                    alt="рисунок настила"
+                    />
+                </ul>
+            </p>
+            <p>
+                Отличительной особенностью прессованного решетчатого настила перед сварным 
+                является возможность изготовления зубьев противоскольжения, 
+                как по несущей, так и по связующей полосе, что увеличивает 
+                сопротивление проскальзыванию при прохождению по поверхности решетчатых настилов
+            </p>
+            <img
+            class="anti-slip-nastil__img"
+            src="/pressnastil1.png"
+            width="600"
+            height="500"
+            alt="рисунок настила"
+            />
+        </div>
+    </section>
+</app-layout>

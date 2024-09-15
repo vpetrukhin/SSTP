@@ -1,0 +1,45 @@
+.press-nastil {
+    width: 100%;
+    padding-top: 50px;
+ } 
+
+.press-nastil__container {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.press-nastil__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px 0 45px;
+}
+
+.press-nastil__img {
+  justify-content: center;
+  margin: 0 0 40px 0;
+  object-fit: contain;
+}
+
+.press-nastil__description {
+    text-align: start;
+    width: 80%;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+.press-nastil__text {
+    font-size: 20px;
+}
+
+.press-nastil__text_marker::before {
+    content: "	►";
+    line-height: 2;
+    color: var(--color-orange);
+}

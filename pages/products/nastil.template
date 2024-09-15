@@ -1,0 +1,39 @@
+<app-layout>
+    <section class="nastils">
+        <div class="nastils__container">
+            <h2 class="nastils__title">Настил</h2>
+            <ul class="nastils__track">
+                <li class="nastil nastil__link">
+                    <img-link
+                    class="nastil__link nastil__link_svarnoy"
+                    href="/nastil/svarnoy-nastil"
+                    bg="/svarnoynastil.png"
+                    >
+                    <h3 class="nastil__title">Сварной настил</h3>
+                </img-link>
+
+                </li>
+                <li class="nastil nastil__link">
+                    <img-link
+                    class="nastil__link nastil__link_press"
+                    href="/nastil/press-nastil"
+                    bg="/pressnastil.jpeg"
+                    >
+                    <h3 class="nastil__title">Пресованный настил</h3>
+                </img-link>
+
+                </li>
+                <li class="nastil nastil__link">
+                    <img-link
+                    class="nastil__link nastil__link_anti-slip"
+                    href="/nastil/anti-slipnastil"
+                    bg="/antislip.jpg"
+                    > 
+                    <h3 class="nastil__title">Настил с противоскольжением</h3>    
+                </img-link>
+
+                </li>
+            </ul>
+        </div>
+    </section>
+</app-layout>

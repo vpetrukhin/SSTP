@@ -1,0 +1,91 @@
+<app-layout>
+    <section class="press-nastil">
+        <div class="press-nastil__container">
+            <h2 class="press-nastil__title">Пресованный Настил</h2>
+            <div class="press-nastil__description">
+                <p class="press-nastil__text">
+                    Прессованные решетчатые настилы изготавливают из продольных и поперечных полос методом холодного прессования под высоким давлением. В результате происходит вдавливание связующей полосы в специально подготовленные пазы несущей.
+Такое соединение  может выдерживать большие нагрузки и обладает исключительной прочностью и надежностью.
+
+
+                </p>
+                <img
+                class="press-nastil__img"
+                src="/pressnastil6.png"
+                width="600"
+                height="500"
+                alt="рисунок настила"
+                />
+                <p>
+                    <strong>Основные параметры прессованного решетчатого настила:</strong>
+                    <p>в качестве материала для изготовления используется:</p>
+                    <ul>
+                        <li class="press-nastil__text_marker">
+                            малоуглеродистая сталь Ст3 (ГОСТ 380-94)
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            низколегированная сталь (ГОСТ 19282-73)
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            нержавеющая сталь (ГОСТ 7350-77)
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            алюминий (ГОСТ 4784-97)
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    <strong>Габаритные размеры:</strong>
+                    <ul>
+                        <li class="press-nastil__text_marker">
+                            максимальные габаритные размеры по несущей полосе 3000 мм
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            максимальная длина по несущей полосе 1 200 мм
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            толщина несущих полос от 2 до 6 мм
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            высота несущих полос от 20 до 70 мм
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            толщина связующих полос от 2 до 3 мм
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            высота связующих полос от 9 до 12 мм
+                        </li>
+                        
+                    </ul>
+                </p>
+                <p>
+                    <strong>Варианты покрытия:</strong>
+                    <ul>
+                        <li class="press-nastil__text_marker">
+                            Горячее цинкование (ГОСТ 9.307-89)
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            Электрохимическое цинкование (ГОСТ 9.301-86)
+                        </li>
+                        <li class="press-nastil__text_marker">
+                            Порошковое полимерное покрытие
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Прессованный настил СТ3настил изготавливается согласно ТУ ____________ и международным стандартам DIN 24537.
+                </p>
+                <img
+                class="press-nastil__img"
+                src="/pressnastil5.png"
+                width="600"
+                height="500"
+                alt="рисунок настила"
+                
+                />
+            </div>
+
+        </div>
+
+    </section>
+</app-layout>

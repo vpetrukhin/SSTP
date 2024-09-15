@@ -34,7 +34,10 @@
 @import './servicesProject/servicesProject.css';
 @import './servecesDelivery.css';
 @import './manufacture.css';
-
+@import './nastil/nasti.css';
+@import './svarnoynastil/savernoynastil.css';
+@import './pressnastil.css';
+@import './antislipnastil.css';
 
 html {
     height: 100%;

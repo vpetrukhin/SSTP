@@ -10,6 +10,12 @@ import CertificatesPage from "../pages/certificates.template";
 import ContactsPage from "../pages/contacts.template";
 import ServicesProjectPage from "../pages/services/project.template";
 import ServicesDeliveryPage from "../pages/services/delivery.template";
+import ProductsNastilPage from "../pages/products/nastil.template"
+import ProdutsStepsPage from "../pages/products/steps.template"
+import ProductsFastenersPage from "../pages/products/fastener.template"
+import NastilSvarnoyPage from "../pages/nastil/svarnoy-nastil.template"
+import NastilPressPage from "../pages/nastil/press-nastil.template"
+import NastilAntiSlipPage from "../pages/nastil/anti-slipnastil.template"
 
 
 
@@ -23,6 +29,12 @@ export const routes = {
   Contacts: new Route(appConfig.routes.contacts),
   ServicesProject: new Route(appConfig.routes.servicesProject),
   ServicesDelivery: new Route(appConfig.routes.servicesDelivery),
+  ProductsNastil: new Route(appConfig.routes.productsNastil),
+  ProductsSteps: new Route(appConfig.routes.productsSteps),
+  ProductsFasteners: new Route(appConfig.routes.productsFasteners),
+  NastilSvarnoy: new Route (appConfig.routes.nastilSvarnoy),
+  NastilPress: new Route (appConfig.routes.nastilPress),
+  NastilAntiSlip: new Route(appConfig.routes.nastilAntiSlip)
 };
 
 export const render = (path) => {
@@ -47,6 +59,18 @@ export const render = (path) => {
     result = ServicesProjectPage();
   } else if (routes.ServicesDelivery.match(path)) {
     result = ServicesDeliveryPage();
+  } else if (routes.ProductsNastil.match(path)) {
+    result = ProductsNastilPage()
+  } else if (routes.ProductsSteps.match(path)) {
+    result = ProdutsStepsPage()
+  } else if (routes.ProductsFasteners.match(path)) {
+    result = ProductsFastenersPage()
+  } else if (routes.NastilSvarnoy.match(path)) {
+    result = NastilSvarnoyPage()
+  } else if (routes.NastilPress.match(path)) {
+    result = NastilPressPage()
+  } else if (routes.NastilAntiSlip.match(path)) {
+    result = NastilAntiSlipPage()
   }
 
 

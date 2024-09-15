@@ -59,7 +59,7 @@ export class ImgLink extends AppLinkLitElement {
       <a
         class="root"
         href="${this.href}"
-        style="background-image: url(${this.bg}) "
+        style="background-image: url(${this.bg})"
         @click="${this.handleClick}"
       >
           <div class="background"></div>

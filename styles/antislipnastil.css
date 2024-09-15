@@ -1,0 +1,45 @@
+.anti-slip-nastil {
+    width: 100%;
+    padding-top: 50px;
+ } 
+
+.anti-slip-nastil__container {
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.anti-slip-nastil__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px 0 45px;
+}
+
+.anti-slip-nastil__img {
+  justify-content: center;
+  margin: 0 0 40px 0;
+  object-fit: cover;
+}
+
+.anti-slip-nastil__description {
+    text-align: start;
+    width: 80%;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+.anti-slip-nastil__text {
+    font-size: 20px;
+}
+
+.anti-slip-nastil__text_marker::before {
+    content: "	►";
+    line-height: 2;
+    color: var(--color-orange);
+}
