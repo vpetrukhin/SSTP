@@ -12,6 +12,12 @@ export const appConfig = {
     contacts: "/contacts",
     servicesProject: "/services/project",
     servicesDelivery: "/services/delivery",
+    productsNastil: "/products/nastil",
+    productsSteps: "/products/steps",
+    productsFasteners: "/products/fastener",
+    nastilSvarnoy: "/nastil/svarnoy-nastil",
+    nastilPress: "/nastil/press-nastil",
+    nastilAntiSlip: "/nastil/anti-slipnastil"
   },
   contacts: {
     tabs: {
@@ -38,15 +44,15 @@ export const menuLinks = [
         links: [
           {
             text: "Сварной настил",
-            href: appConfig.routes.products,
+            href: appConfig.routes.nastilSvarnoy,
           },
           {
             text: "Настил с противоскольжением",
-            href: appConfig.routes.products,
+            href: appConfig.routes.nastilAntiSlip,
           },
           {
-            text: "Настил для стелажей",
-            href: appConfig.routes.products,
+            text: "Пресованный Настил",
+            href: appConfig.routes.nastilPress,
           },
         ],
       },

@@ -1,4 +1,41 @@
 <app-layout>
-  <h1>Продукция</h1>
-  <p>В разработке...</p>
+  <section class="products">
+    <div class="products__container">
+      <h2 class="products__title">Наша продукция</h2>
+      <ul class="products__track">
+        <li class="product product__link">
+          <img-link 
+          class="product__link product__link_nastil" 
+          href="/products/nastil" 
+          bg="/main_nastil.jpg">
+          <h3 class="product__title">Настил</h3>
+        </img-link>
+        </li>
+        <li class="product product__link">
+          <img-link
+          class="product__link product__link_steps" 
+          href="/products/steps"
+          bg="/main_steps.jpg" >
+          <h3 class="product__title">Ступени</h3>
+        </img-link>
+        </li>
+        <li class="product product__link">
+          <!-- <a
+            href="#"
+            class="product__link product__link_fasteners"
+            target="_blank"
+          >
+            <h3 class="product__title">Крепеж</h3>
+          </a> -->
+          <img_link
+          class="product__link product__link_fasteners"
+          href="/products/fastener"
+          bg="/main_fasteners.jpg"
+          >
+          <h3 class="product__title">Крепеж</h3>
+          </img_link>
+        </li>
+      </ul>
+    </div>
+  </section>
 </app-layout>

@@ -1,5 +1,5 @@
 <app-layout header="main">
-  <section class="products">
+  <!-- <section class="products">
     <div class="products__container">
       <h2 class="products__title">Наша продукция</h2>
       <ul class="products__track">
@@ -28,5 +28,5 @@
         </li>
       </ul>
     </div>
-  </section>
+  </section> -->
 </app-layout>
