@@ -27,13 +27,13 @@
           >
             <h3 class="product__title">Крепеж</h3>
           </a> -->
-          <img_link
+          <img-link
           class="product__link product__link_fasteners"
           href="/products/fastener"
           bg="/main_fasteners.jpg"
           >
           <h3 class="product__title">Крепеж</h3>
-          </img_link>
+          </img-link>
         </li>
       </ul>
     </div>

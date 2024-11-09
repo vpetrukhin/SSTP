@@ -17,7 +17,9 @@ export const appConfig = {
     productsFasteners: "/products/fastener",
     nastilSvarnoy: "/nastil/svarnoy-nastil",
     nastilPress: "/nastil/press-nastil",
-    nastilAntiSlip: "/nastil/anti-slipnastil"
+    nastilAntiSlip: "/nastil/anti-slipnastil",
+
+
   },
   contacts: {
     tabs: {
@@ -61,16 +63,16 @@ export const menuLinks = [
         links: [
           {
             text: "Ступени",
-            href: appConfig.routes.products,
-          },
-          {
-            text: "Сварные ступени",
-            href: appConfig.routes.products,
-          },
-          {
-            text: "Ступени с противоскольжением",
-            href: appConfig.routes.products,
-          },
+            href: appConfig.routes.productsSteps,
+          }
+          // {
+          //   text: "Сварные ступени",
+          //   href: appConfig.routes.products,
+          // },
+          // {
+          //   text: "Ступени с противоскольжением",
+          //   href: appConfig.routes.products,
+          // },
         ],
       },
       {
@@ -78,7 +80,7 @@ export const menuLinks = [
         links: [
           {
             text: "Крепеж",
-            href: appConfig.routes.products,
+            href: appConfig.routes.productsFasteners,
           },
         ],
       },

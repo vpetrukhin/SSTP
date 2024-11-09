@@ -3,23 +3,93 @@
     <div class="manufacture__container">
       <h3 class="manufacture__title">Наше производство</h3>
       <div class="manufacture-video">
-        <video class="video"  src="/manufacture_video1.mp4" controls="controls" width="450px" height="400px"></video>
-        <video class="video" src="/manufacture_video2.mp4"  controls="controls" width="450px" height="400px"></video>
+        <video
+          class="video"
+          src="/manufacture_video1.mp4"
+          controls="controls"
+          width="450px"
+          height="400px"
+        ></video>
+        <video
+          class="video"
+          src="/manufacture_video2.mp4"
+          controls="controls"
+          width="450px"
+          height="400px"
+        ></video>
       </div>
-    <div class="manufacture-fotos">
-      <img class="manufacture__photo" src="/ourManufacture1jpg.jpg">
-      <img class="manufacture__photo" src="/ourManufacrure2.jpg">
-      <img class="manufacture__photo" src="/ourManufacture3.jpg">
-      <img class="manufacture__photo" src="/ourManufacture4.jpg">
-
-    </div>
+      <div class="manufacture-fotos">
+        <img class="manufacture__photo" src="/ourManufacture1jpg.jpg" />
+        <img class="manufacture__photo" src="/ourManufacrure2.jpg" />
+        <img class="manufacture__photo" src="/ourManufacture3.jpg" />
+        <img class="manufacture__photo" src="/ourManufacture4.jpg" />
+      </div>
+      <div class="manufacture__variants">
+        <h3 class="manufacture__subtitle">Лестницы и лестничные площадки</h3>
+        <div class="manufacture-fotos">
+          <img class="manufacture__photo" src="/stepsformanufacture.jpeg" />
+          <img
+            class="manufacture__photo"
+            src="/public/stepsformanufarcture1.jpeg"
+          />
+        </div>
+        <p>
+          Лестницы из настила безопасны в эксплуатации, хорошо свето- и
+          влагопроницаемы, <br />
+          долговечны и могут играть роль дизайнерской детали интерьера.
+        </p>
+      </div>
+      <div class="manufacture__variants">
+        <h3 class="manufacture__subtitle">Стеллажи и полки</h3>
+        <p>
+          Данный вид применения решетчатого настила очень удобен в
+          использовании, т.к. настил обладает:
+        </p>
+        <ul>
+          <li class="manufacture__marker">
+            Хорошей свето и влагопроницаемостью
+          </li>
+          <li class="manufacture__marker">
+            Высокая несущая способность при минимальном весе
+          </li>
+          <li class="manufacture__marker">
+            Удобные процессы монтажа и демонтажа
+          </li>
+        </ul>
+      </div>
+      <div class="manufacture__variants">
+        <h3 class="manufacture__subtitle">Промышленные площадки и пешеходные зоны</h3>
+        <ul>
+          <li class="manufacture__marker">Большой срок эксплуатации</li>
+          <li class="manufacture__marker">Безопасность</li>
+          <li class="manufacture__marker">
+            Максимальная жесткость при минимальной массе
+          </li>
+          <li class="manufacture__marker">Эстетичный внешний вид</li>
+        </ul>
+      </div>
+      <div class="manufacture__variants">
+        <h3 class="manufacture__subtitle">Панели для ограждения</h3>
+        <img class="manufacture__photo_variants" src="/panelformanufacture.jpeg" />
+        <p>
+          В этом случае несущие полосы располагают вертикально и обладают
+          эстетичным внешним видом.
+        </p>
+      </div>
+      <div class="manufacture__variants">
+        <h3 class="manufacture__subtitle">В системах вентилиции, фильтрации и водоочистки</h3>
+        <img
+          class="manufacture__photo_variants"
+          src="/public/panelformanufacture1.jpeg"
+        />
+        <p>
+          Возможно применение в вентиляционных отверстиях, а также в качестве
+          фильтрационных решеток, предназначенных для задержания мусора,
+          поступающего с потоком воды
+        </p>
+      </div>
       <h3 class="manufacture__title">Наши работы</h3>
-      <slider-component>
-    </slider-component>
-
-
-
+      <slider-component> </slider-component>
     </div>
   </section>
-
 </app-layout>

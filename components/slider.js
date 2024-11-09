@@ -20,7 +20,7 @@ import { LitElement, html, css } from 'lit';
          min-width: 100%;
          box-sizing: border-box;
          height: 300px;
-         width: 60px;
+         width: 50px;
 
        }
        .controls {
@@ -43,7 +43,7 @@ import { LitElement, html, css } from 'lit';
      constructor() {
        super();
        this.slides = [
-        '/manufacture_nastil.png',
+        '/manufacture_nastil-2.png',
         '/manufacture_products.png',
         '/manufacture_products2.jpg',
         '/manufacture_nastilDop.jpeg',
@@ -52,8 +52,8 @@ import { LitElement, html, css } from 'lit';
         '/ourWork.jpg',
         '/ourWork1.jpg',
         '/ourWork2.jpg',
-        '/ourWork3.jpeg',
-        '/ourWork4.jpeg'
+        '/ourWork3.jpg',
+        '/ourWork4.jpg'
 
 
        ];
