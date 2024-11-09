@@ -1,0 +1,76 @@
+.fastener {
+    width: 100%;
+    padding-top: 50px;
+ } 
+
+.fastener__container {
+    width: 100%;
+    padding: 0 15px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fastener__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.fastener__img {
+  justify-content: center;
+  margin: 0 0 40px 0;
+  object-fit: contain;
+}
+
+.fastener__description {
+    width: 90%;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+.fastener__text {
+    text-align: start;
+    width: 100%;
+    padding: 0 0 0 35px;
+}
+
+.fastener__text_marker::before {
+    content: "	►";
+    line-height: 2;
+    color: var(--color-orange);
+}
+
+ .fastener__choice {
+    width: 100%;
+    margin: 30px auto 0;
+    text-align: center;
+
+ }
+
+ .fastener__table {
+    border: 1px solid black;
+    width: 70%;
+    margin-top: 20px;
+ }
+
+ th {
+    border: 1px solid black;
+ }
+
+ td {
+    border: 1px solid black;
+    text-align: center;
+ }
+
+ .fastener__subtitle {
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 0 25px;
+ }

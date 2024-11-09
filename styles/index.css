@@ -38,6 +38,8 @@
 @import './svarnoynastil/savernoynastil.css';
 @import './pressnastil.css';
 @import './antislipnastil.css';
+@import './steps.css';
+@import './fastener.css';
 
 html {
     height: 100%;

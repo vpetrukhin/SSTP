@@ -5,7 +5,7 @@
 
 .anti-slip-nastil__container {
     width: 90%;
-    padding: 10px 10px 10px 10px;
+    padding: 0 15px 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,14 +28,14 @@
 }
 
 .anti-slip-nastil__description {
-    text-align: start;
-    width: 80%;
+    width: 100%;
     margin: 10px auto 0;
     text-align: center;
 }
 
 .anti-slip-nastil__text {
-    font-size: 20px;
+    text-align: start;
+    width: 95%;
 }
 
 .anti-slip-nastil__text_marker::before {
