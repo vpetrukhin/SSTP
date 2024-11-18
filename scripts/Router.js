@@ -10,14 +10,12 @@ import CertificatesPage from "../pages/certificates.template";
 import ContactsPage from "../pages/contacts.template";
 import ServicesProjectPage from "../pages/services/project.template";
 import ServicesDeliveryPage from "../pages/services/delivery.template";
-import ProductsNastilPage from "../pages/products/nastil.template"
-import ProdutsStepsPage from "../pages/products/steps.template"
-import ProductsFastenersPage from "../pages/products/fastener.template"
-import NastilSvarnoyPage from "../pages/nastil/svarnoy-nastil.template"
-import NastilPressPage from "../pages/nastil/press-nastil.template"
-import NastilAntiSlipPage from "../pages/nastil/anti-slipnastil.template"
-
-
+import ProductsNastilPage from "../pages/products/nastil.template";
+import ProdutsStepsPage from "../pages/products/steps.template";
+import ProductsFastenersPage from "../pages/products/fastener.template";
+import NastilSvarnoyPage from "../pages/nastil/svarnoy-nastil.template";
+import NastilPressPage from "../pages/nastil/press-nastil.template";
+import NastilAntiSlipPage from "../pages/nastil/anti-slipnastil.template";
 
 export const routes = {
   Main: new Route(appConfig.routes.index),
@@ -32,9 +30,9 @@ export const routes = {
   ProductsNastil: new Route(appConfig.routes.productsNastil),
   ProductsSteps: new Route(appConfig.routes.productsSteps),
   ProductsFasteners: new Route(appConfig.routes.productsFasteners),
-  NastilSvarnoy: new Route (appConfig.routes.nastilSvarnoy),
-  NastilPress: new Route (appConfig.routes.nastilPress),
-  NastilAntiSlip: new Route(appConfig.routes.nastilAntiSlip)
+  NastilSvarnoy: new Route(appConfig.routes.nastilSvarnoy),
+  NastilPress: new Route(appConfig.routes.nastilPress),
+  NastilAntiSlip: new Route(appConfig.routes.nastilAntiSlip),
 };
 
 export const render = (path) => {
@@ -49,7 +47,7 @@ export const render = (path) => {
     result = ProductsPage();
   } else if (routes.Manufacture.match(path)) {
     result = ManufacturePage();
-  } else if (routes.About.match(path)) {
+  } else if (routes.About.match(path) && false) {
     result = AboutPage();
   } else if (routes.Certificates.match(path)) {
     result = CertificatesPage();
@@ -60,19 +58,18 @@ export const render = (path) => {
   } else if (routes.ServicesDelivery.match(path)) {
     result = ServicesDeliveryPage();
   } else if (routes.ProductsNastil.match(path)) {
-    result = ProductsNastilPage()
+    result = ProductsNastilPage();
   } else if (routes.ProductsSteps.match(path)) {
-    result = ProdutsStepsPage()
+    result = ProdutsStepsPage();
   } else if (routes.ProductsFasteners.match(path)) {
-    result = ProductsFastenersPage()
+    result = ProductsFastenersPage();
   } else if (routes.NastilSvarnoy.match(path)) {
-    result = NastilSvarnoyPage()
+    result = NastilSvarnoyPage();
   } else if (routes.NastilPress.match(path)) {
-    result = NastilPressPage()
+    result = NastilPressPage();
   } else if (routes.NastilAntiSlip.match(path)) {
-    result = NastilAntiSlipPage()
+    result = NastilAntiSlipPage();
   }
-
 
   document.querySelector("#content").innerHTML = result;
 };
