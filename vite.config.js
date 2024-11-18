@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import TemplateLoader from "./plugins/vite-template-plugin";
+import vercel from "vite-plugin-vercel";
 import { resolve } from "path";
 
 export default defineConfig({
@@ -20,5 +21,8 @@ export default defineConfig({
     host: "0.0.0.0",
     hmr: true,
   },
-  plugins: [TemplateLoader()],
+  plugins: [TemplateLoader(), vercel()],
+  vercel: {
+    rewrites: [{ source: "/about", destination: "/about.html" }],
+  },
 });
