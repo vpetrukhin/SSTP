@@ -12,7 +12,6 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         about: resolve(__dirname, "about.html"),
-        //contact: resolve(__dirname, "contact.html"),
       },
     },
   },
@@ -24,5 +23,15 @@ export default defineConfig({
   plugins: [TemplateLoader(), vercel()],
   vercel: {
     rewrites: [{ source: "/about", destination: "/about.html" }],
+    headers: [
+      {
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=0, must-revalidate",
+          },
+        ],
+      },
+    ],
   },
 });
