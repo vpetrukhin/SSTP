@@ -3,6 +3,7 @@ import TemplateLoader from "./plugins/vite-template-plugin";
 import { resolve } from "path";
 
 export default defineConfig({
+  root: "./",
   build: {
     target: "es2017",
     outDir: "dist",
