@@ -1,4 +1,23 @@
 <app-layout>
-  <h1>Сертификаты</h1>
-  <p>В разработке</p>
+<section class="certificates">
+  <div class="certificates__container">
+    <h1 class="certificates__title">Сертификаты</h1>
+    <div class="certificates__block">
+      <h3 class="certificates__description">Вы можете скачать наши сертификаты</h3>
+      <a
+      class="certificate__link"
+      href="https://disk.yandex.ru/i/yOgzBGX5ISnAFg"
+      target="_blank"
+      download
+      >скачать сертификаты</a>
+      <!-- <img-link
+      class="certificate__link"
+      bg="/sertificat.jpg"
+      href="https://disk.yandex.ru/i/yOgzBGX5ISnAFg"
+      target="_blank"
+      download
+      /> -->
+    </div>
+  </div>
+</section>
 </app-layout>

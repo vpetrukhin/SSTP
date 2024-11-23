@@ -40,6 +40,7 @@
 @import './antislipnastil.css';
 @import './steps.css';
 @import './fastener.css';
+@import './certificates/certificates.css';
 
 html {
     height: 100%;
