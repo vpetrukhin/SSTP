@@ -7,7 +7,7 @@
                     <img-link
                     class="nastil__link nastil__link_svarnoy"
                     href="/nastil/svarnoy-nastil"
-                    bg="/pressnastil5.png"
+                    bg="/svarnastil2.png"
                     >
                     <h3 class="nastil__title">Сварной настил</h3>
                 </img-link>
@@ -17,7 +17,7 @@
                     <img-link
                     class="nastil__link nastil__link_press"
                     href="/nastil/press-nastil"
-                    bg="/svarnastil2.png"
+                    bg="/pressnastil5.png"
                     >
                     <h3 class="nastil__title">Пресованный настил</h3>
                 </img-link>

@@ -47,9 +47,9 @@
             </p>
             <img
             class="steps__img"
-            src="/tablitsaforsteps.jpeg"
-            width="600"
-            height="500"
+            src="/tablisaforsteps2.png"
+            width="1100"
+            height="900"
             alt="фото ступеней"
             />
             <div class="textForTable">
@@ -91,7 +91,7 @@
                 />
                 <img
                 class="steps__img"
-                src="/public/stepspicture1.jpeg"
+                src="/stepspicture1.jpeg"
                 width="500"
                 height="500"
                 alt="фото ступеней"

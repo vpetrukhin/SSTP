@@ -24,19 +24,117 @@
         <img class="manufacture__photo" src="/ourManufacture3.jpg" />
         <img class="manufacture__photo" src="/ourManufacture4.jpg" />
       </div>
-      <div class="manufacture__variants">
+      <table class="manufacture__table">
+        <caption class="manufacture__subtitle">Виды продукции
+          <tr>
+            <td class="manufacture__table_main"><strong>Лестницы и лестничные площадки</strong>
+              <img 
+              class="manufacture__photo_steps" 
+              src="/stepsformanufacture.jpeg"
+              alt="лестница"
+               />
+              <img
+                class="manufacture__photo_steps"
+                src="/stepsformanufarcture1.jpeg"
+                alt="лестница"
+              />
+            </td>
+            <td>
+              Лестницы из настила долговечны, безопасны в эксплуатации, обеспечивают проницаемость света и влаги,
+  и могут стать частью дизайнерского решения.
+            </td>
+          </tr>
+          <tr>
+            <td class="manufacture__table_main"><strong>Стеллажи и полки</strong>
+              <img
+              class="manufacture__photo_variants"
+              src="/main_nastil.jpg"
+              alt="Стеллажи"
+              />
+            </td>
+            <td>
+              <p>
+                Данный вид применения решетчатого настила очень удобен в
+                использовании, т.к. настил обладает:
+              </p>
+              <ul>
+                <li class="manufacture__marker">
+                  Хорошей свето и влагопроницаемостью
+                </li>
+                <li class="manufacture__marker">
+                  Высокая несущая способность при минимальном весе
+                </li>
+                <li class="manufacture__marker">
+                  Удобные процессы монтажа и демонтажа
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="manufacture__table_main"><strong>Промышленные площадки и пешеходные зоны</strong>
+              <img
+              class="manufacture__photo_variants"
+              alt="Площадки"
+              />           
+            </td>
+            <td>
+              <ul>
+                <li class="manufacture__marker">Большой срок эксплуатации</li>
+                <li class="manufacture__marker">Безопасность</li>
+                <li class="manufacture__marker">
+                  Максимальная жесткость при минимальной массе
+                </li>
+                <li class="manufacture__marker">Эстетичный внешний вид</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="manufacture__table_main"><strong>Панели для ограждения</strong>
+              <img
+              class="manufacture__photo_variants" 
+              src="/panelformanufacture.jpeg" 
+              alt="панели для ограждения"
+              />
+
+            </td>
+            <td>
+              В этом случае несущие полосы располагают вертикально и обладают
+          эстетичным внешним видом.
+            </td>
+          </tr>
+          <tr>
+            <td class="manufacture__table_main"><strong>В системах вентилиции, фильтрации и водоочистки</strong>
+              <img
+              class="manufacture__photo_variants"
+              src="/panelformanufacture1.jpeg"
+              alt="в системах вентиляции"
+            />
+            </td>
+            <td>
+              Возможно применение в вентиляционных отверстиях, а также в качестве
+              фильтрационных решеток, предназначенных для задержания мусора,
+              поступающего с потоком воды
+            </td>
+          </tr>
+
+          
+
+        </caption>
+      </table>
+      <!-- <div class="manufacture__variants">
         <h3 class="manufacture__subtitle">Лестницы и лестничные площадки</h3>
         <div class="manufacture-fotos">
-          <img class="manufacture__photo" src="/stepsformanufacture.jpeg" />
+          <img 
+          class="manufacture__photo_steps" 
+          src="/stepsformanufacture.jpeg" />
           <img
-            class="manufacture__photo"
-            src="/public/stepsformanufarcture1.jpeg"
+            class="manufacture__photo_steps"
+            src="/stepsformanufarcture1.jpeg"
           />
         </div>
         <p>
-          Лестницы из настила безопасны в эксплуатации, хорошо свето- и
-          влагопроницаемы, <br />
-          долговечны и могут играть роль дизайнерской детали интерьера.
+          Лестницы из настила долговечны, безопасны в эксплуатации, обеспечивают проницаемость света и влаги, <br />
+          и могут стать частью дизайнерского решения.
         </p>
       </div>
       <div class="manufacture__variants">
@@ -80,14 +178,14 @@
         <h3 class="manufacture__subtitle">В системах вентилиции, фильтрации и водоочистки</h3>
         <img
           class="manufacture__photo_variants"
-          src="/public/panelformanufacture1.jpeg"
+          src="/panelformanufacture1.jpeg"
         />
         <p>
           Возможно применение в вентиляционных отверстиях, а также в качестве
           фильтрационных решеток, предназначенных для задержания мусора,
           поступающего с потоком воды
         </p>
-      </div>
+      </div> -->
       <h3 class="manufacture__title">Наши работы</h3>
       <slider-component> </slider-component>
     </div>
